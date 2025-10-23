@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Callum Rhys Tilbury</title>
+      <title>Centuriae</title>
       <link>https://centuriae.github.io/</link>
-      <description>Last 10 notes on Callum Rhys Tilbury</description>
+      <description>Last 10 notes on Centuriae</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://centuriae.github.io/</link>
-    <guid>https://centuriae.github.io/</guid>
-    <description><![CDATA[  Centuriae Disruption through distillation. ]]></description>
-    <pubDate>Thu, 23 Oct 2025 07:53:19 GMT</pubDate>
-  </item><item>
     <title>About</title>
     <link>https://centuriae.github.io/thesis/</link>
     <guid>https://centuriae.github.io/thesis/</guid>
     <description><![CDATA[  Figure taken from &quot;As We May Think&quot; by Vannevar Bush (1945)—an essay envisioning a future system for collective human knowledge. ]]></description>
+    <pubDate>Thu, 23 Oct 2025 08:53:21 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://centuriae.github.io/</link>
+    <guid>https://centuriae.github.io/</guid>
+    <description><![CDATA[  Centuriae Disruption through distillation. ]]></description>
     <pubDate>Thu, 23 Oct 2025 07:53:19 GMT</pubDate>
   </item><item>
     <title>index</title>
