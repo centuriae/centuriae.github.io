@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution: ${title}</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../diff.css">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body class="diff-page">
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo"><span class="logo-symbol">⊙</span><span
+                    class="logo-text">${site_title}</span></a></nav>
+    </header>
+
+    <main>
+        <article class="revision-header">
+            <a href="${post_url}" class="back-link">&larr; Back to Post</a>
+        
+            <div class="diff-meta-top">
+                <span class="post-num" style="font-family: var(--font-mono); opacity: 0.5;">${post_number}</span>
+                <h1 style="display:inline; margin-left: 1rem;">${title}</h1>
+            </div>
+<div class="diff-layout">
+    <div class="pane-header">
+        <div id="hashTransition"></div>
+        <div id="timeline" class="timeline"></div>
+    </div>
+                <div class="code-container" id="diffContainer">
+                    <!-- Diff injected here -->
+                </div>
+                </div>
+                
+                <div class="commit-info">
+                    <div class="commit-details">
+                        <h3 id="commitMsg">Loading history...</h3>
+                        <div class="commit-meta">
+                            <span id="commitHash" style="font-family: var(--font-mono);"></span> &bull;
+                            <span id="commitDate"></span>
+                    </div>
+                    </div>
+            </div>
+            <!-- Hidden element for JS reference if needed -->
+            <span id="rev-date" style="display:none;"></span>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+    <script src="../js/diff.js"></script>
+    <!-- Store JSON in a script tag to avoid auto-formatter issues -->
+    <script id="history-data" type="application/json">${history_json}</script>
+    <script>
+                (function () {
+                    const historyData = JSON.parse(document.getElementById('history-data').textContent);
+                    initDiff(historyData);
+            })();
+    </script>
+
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        ${footer_text}
+    </footer>
+
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
