@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis</title>
+    <link rel="stylesheet" href="../style.css">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo"><span class="logo-symbol">⊙</span><span
+                    class="logo-text">Centuriae</span></a></nav>
+    </header>
+    <main>
+        <article>
+            <header class="post-header">
+                <h1>Thesis</h1>
+                <div class="meta"><span style='font-family: var(--font-mono);'>00</span> &nbsp; | &nbsp; By <a href='https://callum.tilbury.co.za' target='_blank' rel='noopener noreferrer' style='color: inherit; text-decoration: underline; text-decoration-color: var(--border-color);'>Callum Rhys Tilbury</a> &nbsp; | &nbsp; Last updated: 2026-01-08 &nbsp; | &nbsp; <a href='../diffs/00.html?commit=2554114' style='color: inherit; text-decoration: underline; text-decoration-color: var(--border-color);'>View Timeline</a></div>
+            </header>
+            <div class="content"><p><img class="imagecenter" src="assets/00-aswemaythink.png" alt="As we may think"></p>
+<p class="caption">Figure taken from "As We May Think" by Vannevar Bush (1945)—an essay envisioning a future system for collective human knowledge.</p>
+
+<p><em>Disruption through distillation.</em></p>
+<p>How many great ideas exist in distracted minds, or in anxious draft folders? And what is the potential impact of those ideas when articulated?</p>
+<p>The act of distillation and dissemination of bold ideas is vital to progress in the world. The word “essay” has etymological roots in “to weigh”, and that is a useful description—to assert an idea, and then to measure its weight, its quality, its material properties. Useful for the self, certainly, but even better in public! Indeed, I see such an effort as a form of asynchronous mobilisation towards paradigmatic shifts. A concrete artefact which can then be iterated upon, to guide a grand vision.</p>
+<p>The great <a href="https://michaelnielsen.org/">Michael Nielsen</a> denotes this format as the writing of <em><a href="https://scienceplusplus.org/visions/index.html">vision papers</a></em>, citing some incredible examples—written pieces which catalysed immense progress in fields of computing, physics, and biology. I have some contemporary favourites too, such as <a href="https://www.sam-rodriques.com/">Sam Rodriques</a> and <a href="https://www.linkedin.com/in/adam-marblestone-87202813/">Adam Marblestone</a>'s proposal of <a href="https://fas.org/publication/focused-research-organizations-to-accelerate-science-technology-and-medicine/">Focused Research Organisations</a>, or even just the <a href="https://www.aria.org.uk/media/uqrjp3wp/aria-programmable-plants.pdf">opportunity</a> <a href="https://www.aria.org.uk/media/dgmdk0i1/future-proofing-our-climate-v2.pdf">space</a> <a href="https://www.aria.org.uk/media/qbciknv0/scalable-neural-interfaces-opportunity-space.pdf">descriptions</a> from the UK's <a href="https://www.aria.org.uk">Advanced Research and Invention Agency</a>. Big, bold ideas, clearly articulated.</p>
+<p>So, the important question is: <em>how do we get more of them?</em></p>
+<p>My thesis is twofold: brilliant people struggle to find (a) the time and space to overcome the <em>inertia</em> of refining and writing down their ideas, and (b) the public <em>accountability</em> to finish that writing.</p>
+<p>In the software world, hackathons are massively popular, as a rapid way to experimentally validate an idea. Can we inject this flavour into our rapid iteration of bold ideas? We hear about "builder retreats" in the start-up space often; can we instil that drive into the plotting of ambitious research paths? Can we lean into the joy of community—creating something together, in what Ben James identifies as a key to <a href="https://benbyfax.substack.com/p/aliveness">aliveness</a>? Can we give people the openness to truly sit with a thought for an extended time? Perhaps we simply need to escape the city.</p>
+<p>I know that the brilliant people are out there (I meet them, often!), and I am convinced there is a multitude of ideas brewing in each of their minds. We simply need to create the right environment for these ideas to manifest. Hence, I propose a series of focused writing retreats, bringing together deep thinkers from a range of disciplines, to write their ideas down and share them publicly. Each weekend away begins with blank pages, and ends with committed essays—which need not be complete, but are nonetheless made public. Thereafter, they can be refined (in consultation with the world), but the hard parts are overcome: inertia, accountability.</p>
+<p>The goal is a series of one hundred essays about progress. Lest I be too prescriptive, that could mean just about anything, and that's the point—I am not writing the essays. What emerges, though, will be a collated artefact from deep thinkers: this site, existing in perpetuity. Filled with thoughts about the future, about the present. About what has happened, what may happen, what should happen. Cards on the table, out in the open. Perfect? Certainly not! But articulated. And then: contemplated, discussed, celebrated, argued over, interrogated, built upon.</p>
+<p>There are big question marks, of course. Granted, writing takes time! Is a weekend even enough to refine an idea? Plus, there are logistics to consider—what is the optimal group size, and what format should be followed? We'll need to experiment here. Still, one hundred essays is a lot! Is there enough to say? Almost certainly, yes, but it will take some time to get there. Will people want to go away with strangers though? How do we prevent it feeling like a boring school camp? Finally, perhaps most importantly, do people feel comfortable releasing something rough and possibly unfinished—are they open to the critique that may follow?</p>
+<p>Only one way to find out!</p></div>
+            <hr class="post-divider">
+        </article>
+    </main>
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

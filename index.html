@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centuriae</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <nav><a href="./index.html" class="site-logo"><span class="logo-symbol">⊙</span><span
+                    class="logo-text">Centuriae</span></a></nav>
+    </header>
+    <main>
+        <article>
+            <header class="post-header" style="display:none">
+                <h1>Centuriae</h1>
+                <div class="meta"></div>
+            </header>
+            <div class="content">
+    <div style="max-width: 600px; margin: 4rem auto;">
+        <ul class="index-posts">
+            
+         <li>
+            <a href='posts/00.html'><span style='font-family: monospace; margin-right: 1em;'>00</span>Thesis</a>
+            <span class='author-meta'><a href='https://callum.tilbury.co.za' target='_blank' rel='noopener noreferrer'>Callum Rhys Tilbury</a></span>
+        </li>
+        
+        </ul>
+    </div>
+    </div>
+            
+        </article>
+    </main>
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

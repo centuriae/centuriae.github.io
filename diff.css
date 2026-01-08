@@ -1,0 +1,181 @@
+:root {
+    --diff-add-bg: #e6ffec;
+    --diff-add-border: #acf2bd;
+    --diff-remove-bg: #ffebe9;
+    --diff-remove-border: #ff8e82;
+    --diff-dim-text: #8b949e;
+    --diff-pane-bg: #ffffff;
+        --diff-header-bg: #fdfbf7;
+        --diff-ln-bg: #fafafa;
+        --diff-ln-color: #bbbbbb;
+        --diff-dot-bg: #000000;
+    }
+    
+                html.dark-mode {
+        --diff-add-bg: rgba(46, 160, 67, 0.15);
+        --diff-add-border: rgba(46, 160, 67, 0.3);
+        --diff-remove-bg: rgba(248, 81, 73, 0.15);
+        --diff-remove-border: rgba(248, 81, 73, 0.3);
+        --diff-pane-bg: #1a1a1a;
+        --diff-header-bg: #2d2d2d;
+        --diff-ln-bg: #222222;
+        --diff-ln-color: #6e7681;
+        --diff-dot-bg: #ffffff;
+}
+
+/* Nav Header consistent with layout.html */
+header.site-header {
+    margin-bottom: 2rem;
+}
+
+/* Article Header consistent with layout.html */
+.revision-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 0;
+}
+
+.back-link {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--meta-color);
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.rev-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--diff-dot-bg);
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 0.3;
+}
+
+.rev-dot.active {
+    background: var(--diff-dot-bg);
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+/* Diff Display */
+.diff-layout {
+    display: block;
+    background: var(--diff-pane-bg);
+    border: 1px solid var(--border-color);
+    margin: 2rem 0;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: left;
+        /* Reset alignment from .revision-header */
+}
+
+.diff-pane {
+    background: var(--diff-pane-bg);
+    min-height: 400px;
+}
+
+.pane-header {
+    padding: 0.5rem 1rem;
+    background: var(--diff-header-bg);
+    border-bottom: 1px solid var(--border-color);
+    font-size: 0.75rem;
+    color: var(--meta-color);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    letter-spacing: 0.05em;
+}
+
+.code-container {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    overflow-x: auto;
+    position: relative;
+    text-align: left;
+}
+
+.diff-line {
+    display: flex;
+    min-height: 1.6em;
+}
+
+.ln {
+    min-width: 3rem;
+    padding: 0 0.5rem;
+    text-align: right;
+    user-select: none;
+    color: var(--diff-ln-color);
+        background: var(--diff-ln-bg);
+        font-size: 0.75rem;
+    }
+    
+    .ln-sep {
+    border-right: 1px solid var(--border-color);
+    margin-right: 0.75rem;
+}
+
+.code-text {
+    padding: 0 1rem;
+    white-space: pre-wrap;
+    flex-grow: 1;
+}
+
+/* Colors */
+.line-add {
+    background: var(--diff-add-bg);
+    color: #2ea043;
+}
+.line-add .ln {
+    background: var(--diff-add-border);
+    color: #2ea043;
+}
+
+.line-remove {
+    background: var(--diff-remove-bg);
+    color: #f85149;
+}
+.line-remove .ln {
+    background: var(--diff-remove-border);
+    color: #f85149;
+}
+
+.line-empty {
+    background: var(--diff-ln-bg);
+}
+
+/* Commit Info - Moved Below */
+.commit-info {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0;
+    color: var(--meta-color);
+}
+
+.commit-details h3 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: normal;
+    color: var(--meta-color);
+    margin-bottom: 0.3rem;
+}
+
+.commit-meta {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+    .diff-layout { grid-template-columns: 1fr; }
+}
