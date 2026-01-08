@@ -5,7 +5,7 @@ author: Callum Rhys Tilbury
 author_link: https://callum.tilbury.co.za
 ---
 
-<img class="imagecenter" src="assets/00-aswemaythink.png" alt="As we may think">
+<img class="imagecenter" src="assets/00/aswemaythink.png" alt="As we may think">
 <p class="caption">Figure taken from “As We May Think” by Vannevar Bush (1945)—an essay envisioning a future system for collective human knowledge.</p>
 
 _Disruption through distillation._
