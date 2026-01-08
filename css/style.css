@@ -105,18 +105,6 @@ body>header {
         transition: all 0.2s ease;
     }
     
-    .site-logo .logo-text {
-        display: none;
-    }
-    
-    .site-logo:hover .logo-symbol {
-        display: none;
-    }
-    
-    .site-logo:hover .logo-text {
-        display: inline;
-}
-
 .theme-toggle {
     background: none;
     border: none;
