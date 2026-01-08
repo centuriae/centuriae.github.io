@@ -13,6 +13,7 @@ OUTPUT_DIR = Path('_build')
 TEMPLATE_DIR = Path('templates')
 CSS_DIR = Path('css')
 CONFIG_FILE = Path('config.json')
+STATIC_DIR = Path('static')
 
 def load_config():
     if CONFIG_FILE.exists():
@@ -97,6 +98,12 @@ def build():
         for js_file in JS_DIR.glob('*.js'):
             shutil.copy(js_file, OUTPUT_DIR / 'js' / js_file.name)
 
+    # Copy Static Assets
+    if STATIC_DIR.exists():
+        for static_file in STATIC_DIR.glob('*'):
+            if static_file.is_file():
+                shutil.copy(static_file, OUTPUT_DIR / static_file.name)
+
     # Copy local images and assets
     # 1. Copy 'assets' directory if it exists
     if (CONTENT_DIR / 'assets').exists():
@@ -104,7 +111,7 @@ def build():
         shutil.copytree(CONTENT_DIR / 'assets', OUTPUT_DIR / 'posts' / 'assets', dirs_exist_ok=True)
 
     # 2. Copy images at the root of content (maintain existing behavior for root images)
-    image_extensions = ['*.png', '*.jpg', '*.jpeg', '*.gif', '*.webp', '*.svg']
+    image_extensions = ['*.png', '*.jpg', '*.jpeg', '*.gif', '*.webp', '*.svg', '*.ico']
     for ext in image_extensions:
         for img_file in CONTENT_DIR.glob(ext):
             shutil.copy(img_file, OUTPUT_DIR / img_file.name)
