@@ -78,7 +78,7 @@ h1 {
 a {
     color: var(--text-color);
     text-decoration: underline;
-    text-decoration-color: var(--border-color);
+    text-decoration-color: #B8B0A0;
     text-underline-offset: 4px;
 }
 
