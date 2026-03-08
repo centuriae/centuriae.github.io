@@ -249,8 +249,7 @@ def build():
         
         item_html = f"""
          <li>
-            <a href='posts/{post['slug']}.html'>{display_number}{post['title']}</a>
-            <span class='author-meta'>{author_html}</span>
+            <span class='post-number'>{post['number'] if post['number'] else ''}</span><div class='index-entry'><a href='posts/{post['slug']}.html'>{post['title']}</a><span class='author-meta'>{author_html}</span></div>
         </li>
         """
         index_list_items += item_html
