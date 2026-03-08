@@ -206,12 +206,22 @@ code {
 }
 .index-posts li {
     list-style: none;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1.2rem;
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
 }
 
+.index-posts .post-number {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    margin-right: 1em;
+    flex-shrink: 0;
+}
+
+.index-posts .index-entry {
+    display: flex;
+    flex-direction: column;
+}
 .index-posts li a {
     font-size: 0.95rem;
     text-decoration: none;
@@ -239,8 +249,7 @@ code {
     }
 
     .index-posts li {
-        flex-direction: column;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 }
 
