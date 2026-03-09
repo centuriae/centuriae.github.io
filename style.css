@@ -267,3 +267,8 @@ code {
     margin-top: -1.5rem;
     margin-bottom: 2rem;
 }
+
+.footnote hr {
+    border: none;
+    border-top: 0px;
+}
