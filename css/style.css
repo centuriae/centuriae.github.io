@@ -269,6 +269,5 @@ code {
 }
 
 .footnote hr {
-    border: none;
-    border-top: 0px;
+    display: none;
 }
