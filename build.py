@@ -1,11 +1,12 @@
-import os
 import json
+import os
 import shutil
 import subprocess
-import markdown
+from datetime import datetime
 from pathlib import Path
 from string import Template
-from datetime import datetime
+
+import markdown
 
 # Configuration
 CONTENT_DIR = Path('content')
@@ -130,8 +131,10 @@ def build():
     for md_file in CONTENT_DIR.glob('*.md'):
         with open(md_file, 'r') as f:
             text = f.read()
-            
-        md = markdown.Markdown(extensions=['meta', 'fenced_code', 'codehilite'])
+
+        md = markdown.Markdown(
+            extensions=["meta", "fenced_code", "codehilite", "footnotes"]
+        )
         html_content = md.convert(text)
         meta = md.Meta if hasattr(md, 'Meta') else {}
         
