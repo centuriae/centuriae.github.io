@@ -34,4 +34,4 @@ In a beautiful way, these reflections arose at a meta level, in the act of the w
 
 So where am I with the simmering anxiety? It's still there! These musings do little to ease the realities of deadlines, timelines, and papers to be written (at times it feels like the 4 year doctoral countdown is persistently ticking). And honestly, this weekend of writing leaves me with many more questions than answers—such a wonderfully engaging two-something days it has been! Endless great discussions with a fantastic, kind group of thinkers. Therefore, true to the spirit of the retreat, I'm releasing these thoughts without a neat conclusion. After all, what is a neat conclusion in this dizzying world? Perhaps I should do the 5/25 thing, but perhaps not. And maybe I should use AI agents more. Or maybe I should not use AI agents at all. To be a specialist, to be a generalist? AGI soon? AGI never? And where does that leave us? Gah. There's so much to think about, to internalise, to weigh up, to decide. 
 
-And then, well, there's the fudge in front of me. Do I lock the fudge in? 🍫
+And then, well, there's the fudge in front of me. Should I lock _tf (the fudge)_ in? 🍫
