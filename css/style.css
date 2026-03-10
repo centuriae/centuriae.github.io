@@ -234,6 +234,10 @@ code {
     font-style: italic;
 }
 
+.index-posts li .author-meta a {
+    font-size: 0.8rem;
+}
+
 /* Mobile */
 @media (max-width: 600px) {
     body {
