@@ -213,12 +213,12 @@ def build():
         if prev_post or next_post:
             nav_html += '<div class="post-nav">'
             if prev_post:
-                nav_html += f"<a href='{prev_post['slug']}.html' style='text-decoration: none;'>&larr; {prev_post['number'] if prev_post['number'] else ''} {prev_post['title']}</a>"
+                nav_html += f"<a href='{prev_post['slug']}.html' style='text-decoration: none;'>&larr; {prev_post['title']}</a>"
             else:
                 nav_html += "<span></span>"
                 
             if next_post:
-                nav_html += f"<a href='{next_post['slug']}.html' style='text-decoration: none;'>{next_post['number'] if next_post['number'] else ''} {next_post['title']} &rarr;</a>"
+                nav_html += f"<a href='{next_post['slug']}.html' style='text-decoration: none;'>{next_post['title']} &rarr;</a>"
             else:
                 nav_html += "<span></span>"
             nav_html += '</div>'
