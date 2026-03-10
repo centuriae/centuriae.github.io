@@ -9,7 +9,7 @@ author: Alfred Brown
 Project updates:
 
 - The electronic lab notebook and inventory system is set up using Airtable. Experimental data, metadata and setup details are all being logged. We are live!
-- The first experiment was livestreamed via a £12 baby monitor, with simultaneous data streaming, using cultivawild type E. coli in LB media.
+- The first experiment was livestreamed via a £12 baby monitor, with simultaneous data streaming, using wild type E. coli in LB media.
 
 Learnings & developments:
 
