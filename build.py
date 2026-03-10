@@ -72,6 +72,29 @@ def get_file_history(filepath):
         print(f"Error getting history for {filepath}: {e}")
         return []
 
+def generate_pdf_container(pdf_path):
+    """Generate responsive PDF container HTML."""
+    return f"""<p style="text-align: center; margin-bottom: 1rem;">
+    <a href="{pdf_path}" target="_blank" style="text-decoration: underline;">View PDF in new tab ↗</a>
+</p>
+<div class="pdf-container">
+    <embed src="{pdf_path}" type="application/pdf" />
+</div>"""
+
+
+def process_pdf_markers(content):
+    """Process <!-- PDF: path/to/file.pdf --> markers and replace with HTML containers."""
+    import re
+
+    pattern = r"<!-- PDF:\s*([^\s]+)\s*-->"
+
+    def replace_marker(match):
+        pdf_path = match.group(1)
+        return generate_pdf_container(pdf_path)
+
+    return re.sub(pattern, replace_marker, content)
+
+
 def build():
     # Prepare output directory
     if OUTPUT_DIR.exists():
@@ -136,6 +159,7 @@ def build():
             extensions=["meta", "fenced_code", "codehilite", "footnotes"]
         )
         html_content = md.convert(text)
+        html_content = process_pdf_markers(html_content)
         meta = md.Meta if hasattr(md, 'Meta') else {}
         
         title = meta.get('title', [md_file.stem.replace('-', ' ').title()])[0]
