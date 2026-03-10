@@ -185,9 +185,23 @@ code {
 
 .post-nav {
     display: flex;
-    justify-content: space-between;
+    gap: 1rem;
     margin-bottom: 2rem;
     font-size: 0.9rem;
+}
+
+.post-nav a,
+.post-nav span {
+    flex: 1;
+    min-width: 0;
+}
+
+.post-nav a:first-child {
+    text-align: left;
+}
+
+.post-nav a:last-child {
+    text-align: right;
 }
 
 .site-footer {
