@@ -2,7 +2,6 @@
 title: What we're fighting for
 number: 07
 author: Morgan Richards
-author_link: https://www.linkedin.com/in/morgan-w-richards/
 ---
 
 <div style="margin: 2rem 0;">

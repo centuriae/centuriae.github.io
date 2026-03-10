@@ -2,7 +2,6 @@
 title: Biology likes to borrow
 number: 06
 author: Isabelle Zane
-author_link: https://isabellezane.bio/
 ---
 
 From genetics to neuroscience, biologists have been borrowing mental models and vocabulary from other scientific fields for decades. The idea of a genetic circuit is based on electrical engineering principles; genetic codes are a framework loaned from computer science; and the concept of proteins operating as machines and cells working like factories reflects the influence of modern manufacturing. These conceptual frameworks have shaped the way we speak, write, and think about biology, they are practically unavoidable when looking through anything in between graduate level textbooks and popular science Youtube videos. 

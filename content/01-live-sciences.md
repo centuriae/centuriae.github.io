@@ -2,7 +2,6 @@
 title: Live Sciences
 number: 01
 author: Alfred Brown
-author_link: https://alfjb.substack.com/p/live-sciences
 ---
 
 ## Science is Broken

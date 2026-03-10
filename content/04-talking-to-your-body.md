@@ -2,7 +2,6 @@
 title: Talking to your Body
 number: 04
 author: Tim Rein
-author_link: https://www.linkedin.com/in/tim-rein-64ab18261/
 ---
 
 <div style="margin: 2rem 0;">

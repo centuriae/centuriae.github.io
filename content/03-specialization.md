@@ -2,7 +2,6 @@
 title: The case against specialization
 number: 03
 author: Sabrina Singh
-author_link: https://sabrinasingh.xyz/writing/the-case-against-specialization
 ---
 
 _While there aren’t any certain predictions on what the next decade or beyond looks like, the people who will build the fields of the future are those who can see across disciplines._
