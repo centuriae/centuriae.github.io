@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Paper Was Always the Wrong Unit: AI in Academic Papers and the Future of Scientific Knowledge Exchange</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo">Centuriae</a></nav>
+    </header>
+    <main>
+        <article>
+            <header class="post-header">
+                <h1>The Paper Was Always the Wrong Unit: AI in Academic Papers and the Future of Scientific Knowledge Exchange</h1>
+                <div class="meta"><span style='font-family: var(--font-mono);'>08</span> &nbsp; | &nbsp; By <a href='https://www.linkedin.com/in/iman-mouloudi/' target='_blank' rel='noopener noreferrer' style='color: inherit; text-decoration: underline; text-decoration-color: var(--border-color);'>Iman Mouloudi</a> &nbsp; | &nbsp; Last updated: 2026-03-10 &nbsp; | &nbsp; <a href='../diffs/08.html?commit=4a65cdd' style='color: inherit; text-decoration: underline; text-decoration-color: var(--border-color);'>View Timeline</a></div>
+            </header>
+            <div class="content"><p><strong>I. Introduction: The Paper as Category Error</strong></p>
+<p>There is something strange about the scientific paper. For three and a half centuries, the paper has served as the primary unit of scientific communication: it is the object through which findings are reported, new disciplines are socialised, and the authority of individuals institutionalised. Moreover, it has become the central mechanism through which knowledge is archived. The paper has survived the printing press, the telegraph, the internet, and the digitisation of virtually every other form of human record-keeping, emerging from each technological upheaval in broadly recognisable form. This durability, one might initially suppose, reflects some deep epistemic fitness, some correspondence between the format of the paper and the structure of scientific knowledge itself. I want to argue that this is not the case<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. </p>
+<p>The scientific paper has persisted not because it is the optimal vehicle for scientific communication but because it became (over the course of the nineteenth and twentieth centuries) the load-bearing infrastructure of an entire institutional apparatus. It survived because too many powerful interests had become structurally dependent upon it for any single actor to displace it. </p>
+<p>The central claim of this essay is that the paper commits a category error. It contains three separable outputs of scientific inquiry: primary data (i.e. the empirical record, the methodology), interpretive analysis (the necessary inferential work that extracts meaning from data), and credentialing. These three outputs are subject to a single gatekeeping mechanism, the peer review, that was not designed to evaluate all three simultaneously and has always struggled to do so adequately. This was perhaps manageable, if not comfortable, so long as the rate of scientific production remained within the evaluative capacity of the peer review system and so long as falsifying data(?) or argumentative claims required sufficient effort. </p>
+<p>Both conditions are now failing simultaneously. The introduction of large language models (LLMs) into scientific authorship has accelerated publication output to volumes that the peer review infrastructure demonstrably cannot process. It has lowered the marginal cost of producing superficially credible manuscripts to near zero, leading to an explosion of low-quality literature (França &amp; Monserrat, 2024); and it has, in doing so, exposed the structural misalignment that I argue was always present in the paper format. </p>
+<p>The response I want to defend is not that peer review should be improved (though, of course, I think it should), or that open access mandates should be extended, or even that AI-detection tools should be deployed at the submission stage. These are puzzle-solving measures, in Thomas Kuhn's (1962) sense: the application of existing tools to anomalies that the existing paradigm is generating. What I think is more interesting, is the opportunity this moment presents: a replacement of the paper as the primary unit of scientific knowledge exchange with a model in which raw, documented data serves as the primary artefact, interpretation is modular and user-generated, and discourse is interactive and socially mediated. </p>
+<p>This essay traces the argument for that conclusion across four movements: the historical contingency and structural failures of the paper format (Sections II and III), the epistemological stakes of the current crisis (Section IV), and the substantive features of the proposed alternative (Sections V and VI). <strong>This is a work in progress.</strong> </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Indeed, Whitworth &amp; Friedman (2009a) describe the scientific paper as an artifact of a "feudal academic knowledge exchange system"&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            <hr class="post-divider"><div class="post-nav"><a href='07.html' style='text-decoration: none;'>&larr; 07 What we're fighting for</a><span></span></div>
+        </article>
+    </main>
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>Express interest <a href="https://forms.gle/EwMPciRoT5rSHPNr9">here</a>.</p>
+<p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
