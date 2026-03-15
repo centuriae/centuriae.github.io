@@ -37,6 +37,7 @@ The specific weaknesses and strengths of any funding model, and their relative i
 
 The iron is particularly hot in the UK, with a growing interest in metascience, with new players from a dedicated government metascience policy unit, a radical funding agency in both topic and format, and many other private actors, pushing models of scientific funding and structuring. A conversation is now happening not just around the need to do science, but also to do it in the best way possible<sup>[\[9\]](#footnote-9)</sup>. This is the time to consider radical changes and to make Leo Szilard proud.
 
+## Footnotes
 
 - Szilard aimed at satirising the National Science Foundation of the United States of America, which was in the process of being established, to read, see: <https://www.gipsa-lab.grenoble-inp.fr/~pierre.comon/FichiersPdf/theMarkGableFoundation.pdf> [↑](#footnote-ref-1)
 
