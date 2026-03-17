@@ -1,4 +1,10 @@
-## Leo Szilard, nuclear physicist, prophetic satirist
+---
+title: A New Model Research System
+number: 13
+author: Harry Chapman
+---
+
+### Leo Szilard, nuclear physicist, prophetic satirist
 
 In 1948, Leo Szilard, a Hungarian-born physicist wrote "The Mark Gable Foundation"<sup>[\[1\]](#footnote-1)</sup>. In this sci-fi short story, an industrialist is determined to halt scientific progress. The narrator proposes a vehicle to achieve this goal, not an autocratic state, or a mass un-literacy programme, but a grant foundation. It would utilise committees of scientists to review grant proposals, giving funding to the most promising applicants and large prizes to the best papers annually. This is intended to pull the best talent out of research into administration, reward scientists who follow trends, and push scientists towards certain, incremental work. Szilard reaches forward from the annals of history and skewers a key plank of the scientific ecosystem of today.
 
@@ -9,7 +15,7 @@ This story will be bittersweet to any scientist currently navigating the reality
 
 So, peer review is costly, blunts the ambition of our scientists, and contributes to some of science's worst dynamics. What is the alternative? Plenty of interventions have been suggested to improve the peer review process<sup>[\[5\]](#footnote-5)</sup>, but rarely do these represent a major divergence from current processes. Potentially, the answer lies not in reform of peer review, but in bypassing it entirely.
 
-## Alternative structures for science
+### Alternative structures for science
 
 Research environments where scientists are not dependent on grants exist, on an institutional level. From the Max Planck Society in Germany, The National Laboratory system in the US, and National Centre for Scientific Research in France, research institutes provide settings in which researchers have the stability and capacity to focus.. These environments enable less precarity, where scientists have permanent roles, and don't have to worry about bringing home the bacon but inventing the next best thing.
 
@@ -19,7 +25,8 @@ Research environments where scientists are not dependent on grants exist, on an 
 The lack of these structures is a UK specific issue, as an international outlier in the homogeneity of its research system. 55% of UK researchers work in higher education institutions, far more than other advanced economies, and just 2% of researchers work in government research organisations, ranking us as one of the lowest<sup>[\[6\]](#footnote-6)</sup>. It's not surprising UK academics feel the greatest downstream distortions of the grant funding model, spending the least time on research, and the most on administration when compared to international peers<sup>[\[7\]](#footnote-7)</sup>.
 
 These alternative structures are not without critique. Being directly government controlled and directed; they are more beholden to governmental influence. That can help focus science on societal prioritisations but can also lead to nuclear weapons and anthrax. Fundamentally, they also move the prioritisation of research within a closed system, with less transparency or range. But their inclusion in a research system provides some structural diversity and affords advantages, and the UK is unique in our rejection of them<sup>[\[8\]](#footnote-8)</sup>.
-## Alternative models of funding
+
+### Alternative models of funding
 
 Whilst other research systems do have more research institutes, grant funded research is still the predominant model of publicly funded research across the globe. There are credits to peer review, and to the competitive grants. If there is a consensus on a topic's potential, it should probably get researched at some point. But would other potential systems provide avenues to accessing areas of potential that the current system biases against? The US's Defence Advanced Research Projects Agency (DARPA) provides a model on finding high potential, low consensus ideas, and funding where it otherwise would languish. DARPA played a role in creating the internet, GPS, voice assistants, and even mRNA vaccines. In fact, the initial paper behind mRNA vaccines which was rejected from the academic journal Nature on the grounds of being "not novel", and "not of interest to the broad readership" and struggled to attract conventional funding but were a vital breakthrough to combating the COVID-19 pandemic, and saved millions of lives.
 
@@ -27,7 +34,7 @@ Moreover, the success of the DARPA model has inspired more iterations, both in t
 
 With the large-scale dissatisfaction, both within and without science, and the billions of funding allocated via grant funding (directly or indirectly), a more experimental approach to metascience might deliver, especially if considering funding models which might sit alongside or augment traditional grant funding models.
 
-## An experiment in funding models
+### An experiment in funding models
 
 What might a more radical model look like? Instead of forcing researchers to craft grant applications, leets use formats that researchers already produce to disseminate their research. We could take inspiration from the world of professional sports, or the world of venture capital, both domains where identifying high potential prospects requires making risky bets and have a more proactive funding model where funders employ "research scouts", who would go to conferences (undeclared, importantly) and consume academic output directly. Scouts would be able to interact directly with researchers on a candid and casual basis, where researchers are often more open and honest about their ideas and its potential, and passion and vision are easier to spot. Based on these interactions, scouts could inform a breakthrough strategy based on both funding genuinely uncertain prospects, outside the scientific consensus, and backing extraordinary talent. This would differ from the ARIA/DARPA model by not being programmatic i.e. not in the service of one specific scientific aim, but rather aiming to diversify the baseline of scientific talent and enable new routes to support anti-consensus science.
 
@@ -37,7 +44,7 @@ The specific weaknesses and strengths of any funding model, and their relative i
 
 The iron is particularly hot in the UK, with a growing interest in metascience, with new players from a dedicated government metascience policy unit, a radical funding agency in both topic and format, and many other private actors, pushing models of scientific funding and structuring. A conversation is now happening not just around the need to do science, but also to do it in the best way possible<sup>[\[9\]](#footnote-9)</sup>. This is the time to consider radical changes and to make Leo Szilard proud.
 
-## Footnotes
+### Footnotes
 
 - Szilard aimed at satirising the National Science Foundation of the United States of America, which was in the process of being established, to read, see: <https://www.gipsa-lab.grenoble-inp.fr/~pierre.comon/FichiersPdf/theMarkGableFoundation.pdf> [↑](#footnote-ref-1)
 
