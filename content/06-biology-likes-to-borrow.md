@@ -2,6 +2,7 @@
 title: Biology likes to borrow
 number: 06
 author: Isabelle Zane
+author_link: https://isabellezane.bio/
 ---
 
 From genetics to neuroscience, biologists have been borrowing mental models and vocabulary from other scientific fields for decades. The idea of a genetic circuit is based on electrical engineering principles; genetic codes are a framework loaned from computer science; and the concept of proteins operating as machines and cells working like factories reflects the influence of modern manufacturing. These conceptual frameworks have shaped the way we speak, write, and think about biology, they are practically unavoidable when looking through anything in between graduate level textbooks and popular science Youtube videos. 
@@ -18,4 +19,4 @@ Our overreliance on borrowed frameworks will always suffer from the fact that th
 
 If we want biology to become truly predictable, to have outcomes that are reliable enough to engineer more civilization-shaping technologies, then we need to start developing *new* mental frameworks for thinking about biology rather than continuing to borrow them. Our best models shouldn’t be tethered to the latest computer science or manufacturing concepts, we need theories of our own that should be strong enough to stand alone. 
 
-[^1]:  List of sources. Philip Ball.
+[^1]: Ball, P. (2025) How life works: A user’s guide to the new biology. Chicago: The University of Chicago Press.
