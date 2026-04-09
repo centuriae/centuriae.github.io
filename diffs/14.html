@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution: The Mind That Changes The World</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../diff.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body class="diff-page">
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo">Centuriae</a></nav>
+    </header>
+
+    <main>
+        <article class="revision-header">
+            <a href="../posts/14.html" class="back-link">&larr; Back to Post</a>
+        
+            <div class="diff-meta-top">
+                <span class="post-num" style="font-family: var(--font-mono); opacity: 0.5;">14</span>
+                <h1 style="display:inline; margin-left: 1rem;">The Mind That Changes The World</h1>
+            </div>
+<div class="diff-layout">
+    <div class="pane-header">
+        <div id="hashTransition"></div>
+        <div id="timeline" class="timeline"></div>
+    </div>
+                <div class="code-container" id="diffContainer">
+                    <!-- Diff injected here -->
+                </div>
+                </div>
+                
+                <div class="commit-info">
+                    <div class="commit-details">
+                        <h3 id="commitMsg">Loading history...</h3>
+                        <div class="commit-meta">
+                            <span id="commitHash" style="font-family: var(--font-mono);"></span> &bull;
+                            <span id="commitDate"></span>
+                    </div>
+                    </div>
+            </div>
+            <!-- Hidden element for JS reference if needed -->
+            <span id="rev-date" style="display:none;"></span>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+    <script src="../js/diff.js"></script>
+    <!-- Store JSON in a script tag to avoid auto-formatter issues -->
+    <script id="history-data" type="application/json">[{"hash": "521c3f7", "date": "2026-04-09T09:53:00+01:00", "subject": "14: sourish", "content": "---\ntitle: The Mind That Changes The World\nnumber: 14\nauthor: Sourish Sharma\nauthor_link: https://sourish.com/progress\n---\n\ni recently spent a weekend in rural Hampshire - a writing retreat with 15 other busy people who want to make more time for writing (which is largely a proxy of thinking).\n\nmost of them were academics, or academia-aligned people. very intellectual, knowledgable, and well-lived people. i had great conversations with them all, but there was a pattern emerging suggesting a deep-rooted difference in our philosophies on how to create maximum progress for humanity.\n\n_note - the labels 'academic' and 'capitalist' are used loosely in reference to their dictionary definitions. don't over-index on that._\n\n## Academia\n\nacademia and science have always gone hand-in-hand, and have always been viewed as 'pure', in some indescribable way. the ancient goal was to create a sanctuary of thought and debate, then the printing press led to much faster methods of communication, global discussion, and thus progress; the _paper_ was born.\n\nthe internet helped too, as scientists across the globe could collaborate and make advancements at astonishing rates.\n\nbut it quickly ruined the _paper_. instead of scientists spending their life in the pursuit of answering a fundamental question, many began optimising for popularity. the goal shifted from science communication to publicity. a subtle shift with seismic effects.\n\n fortunately, the 'academic' mindset spread beyond just the academics, as work became less physical and more abstract. whilst academic institutions are broken, many people hold the same core beliefs as Plato did 2500 years ago.\n\n## Capitalism\n\ncapitalism exists to create wildly asymmetric inputs and outputs. the _American Dream_ is the idea that working hard and taking on measured risk will lead to fantastically comfortable lives, but also that making a bet on oneself to search for gold or oil may create unfathomable wealth.\n\nthis has always existed in some form; there have always been people significantly wealthier than others. \n\nbut luck isn't a factor. working harder and smarter than everyone else, the competition whom the capitalist seeks to obliterate, is how they get there. success is in one's own hands, and one's own hands solely.\n\nspecifically, wealth is accumulated through creating value in society. and value is created by progressing humanity (in theory). capitalism rewards the individual making huge leaps of progress themselves, and slotting this progress efficiently into the cogs of society - whether productive or not.\n\n## The Difference\n\nthe **academic** believes in communal progress; in discussion and debate, powered by the sharing of knowledge. the academic thinks statistically and scientifically, but with a romance that has lasted forever.\n\nthe **capitalist** puts the burden of success and progress on themself, existing to win against the competition alone. the capitalist thinks very literally and in a way that places themself at the core of every problem, but also solution.\n\nmore simply - academics believe progress is made as a collective, and capitalists believe it's driven by a single entity.\n\n## My Experience\n\nclearly, i'm a capitalist. i believe that is the (only) correct way to make meaningful progress. \n\nthere are plenty of academics who produced influential work, but it was the derivatives that really mattered. how many authors of _Attention is all you need (2017)_ can you name? how many founders of OpenAI can you name?\n\nmost people, even academics, can name more of the latter; the capitalists.\n\nOpenAI was heavily criticised for their lack of papers and open source work. and yet, they produced the best generative AI models ever, and \"ChatGPT\" has become a household word. academics are irrelevant in the bigger picture, as capitalists will solve problems, do science, and answer fundamental questions themselves in order to win.\n\nwere COVID-19 vaccines created so rapidly due to academics, or capitalists? how much cutting-edge work in the world is open source?\n\nwhilst talking to my fellow retreat-ers, the contrast between our views of a successful and impactful career was almost comical, and permeated every topic. i was in disarray that they'd even think to mention the (low) probability of my future companies succeeding. i was even more taken aback that they believed it to be an unreasonable goal to never die, solve brain-computer interfaces, and live in another galaxy.\n\nconversely, i found it diabolical that they believed a successful career was one where lots of writing was published, PhDs were pursued, academic research was conducted, and progress was viewed at a societal level.\n\nthe weekend in rural Hampshire, and the following month of conversations with all sorts of people, helped me form this mental model. it helped me articulate what makes someone rich and impactful to science, or insignificant and forgotten to history.\n\n", "filename": "14-the-mind-that-changes.md"}]</script>
+    <script>
+                (function () {
+                    const historyData = JSON.parse(document.getElementById('history-data').textContent);
+                    initDiff(historyData);
+            })();
+    </script>
+
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>Express interest <a href="https://forms.gle/EwMPciRoT5rSHPNr9">here</a>.</p>
+<p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
