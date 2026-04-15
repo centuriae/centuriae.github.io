@@ -19,7 +19,7 @@ the internet helped too, as scientists across the globe could collaborate and ma
 
 but it quickly ruined the _paper_. instead of scientists spending their life in the pursuit of answering a fundamental question, many began optimising for popularity. the goal shifted from science communication to publicity. a subtle shift with seismic effects.
 
- fortunately, the 'academic' mindset spread beyond just the academics, as work became less physical and more abstract. whilst academic institutions are broken, many people hold the same core beliefs as Plato did 2500 years ago.
+fortunately, the 'academic' mindset spread beyond just the academics, as work became less physical and more abstract. whilst academic institutions are broken, many people hold the same core beliefs as Plato did 2500 years ago when he set up _Academy_.
 
 ## Capitalism
 
@@ -27,17 +27,19 @@ capitalism exists to create wildly asymmetric inputs and outputs. the _American 
 
 this has always existed in some form; there have always been people significantly wealthier than others. 
 
-but luck isn't a factor. working harder and smarter than everyone else, the competition whom the capitalist seeks to obliterate, is how they get there. success is in one's own hands, and one's own hands solely.
+but luck isn't a factor towards that. working harder and smarter than everyone else, the competition whom the capitalist seeks to obliterate, is how they get there. success is in one's own hands, and one's own hands solely.
 
-specifically, wealth is accumulated through creating value in society. and value is created by progressing humanity (in theory). capitalism rewards the individual making huge leaps of progress themselves, and slotting this progress efficiently into the cogs of society - whether productive or not.
+this wealth is accumulated through creating value in society. and value is created by progressing humanity (in theory). capitalism rewards the individual making huge leaps of progress, and slotting this progress efficiently into the cogs of society - whether (seemingly) productive or not.
 
 ## The Difference
 
 the **academic** believes in communal progress; in discussion and debate, powered by the sharing of knowledge. the academic thinks statistically and scientifically, but with a romance that has lasted forever.
 
-the **capitalist** puts the burden of success and progress on themself, existing to win against the competition alone. the capitalist thinks very literally and in a way that places themself at the core of every problem, but also solution.
+the **capitalist** puts the burden of success and progress on themself, existing to win against the competition alone. the capitalist thinks more literally and in a way that places themself at the core of every problem, but also solution.
 
-more simply - academics believe progress is made as a collective, and capitalists believe it's driven by a single entity.
+more simply:
+ 
+> **academics** believe progress is made as a collective, whilst **capitalists** believe it's driven by a single entity.
 
 ## My Experience
 
@@ -53,7 +55,7 @@ were COVID-19 vaccines created so rapidly due to academics, or capitalists? how 
 
 whilst talking to my fellow retreat-ers, the contrast between our views of a successful and impactful career was almost comical, and permeated every topic. i was in disarray that they'd even think to mention the (low) probability of my future companies succeeding. i was even more taken aback that they believed it to be an unreasonable goal to never die, solve brain-computer interfaces, and live in another galaxy.
 
-conversely, i found it diabolical that they believed a successful career was one where lots of writing was published, PhDs were pursued, academic research was conducted, and progress was viewed at a societal level.
+conversely, i found it diabolical that they believed a successful career was one where lots of writing was published, PhDs were pursued, academic research was conducted, and progress was viewed at a societal level, driven by collective forces.
 
 the weekend in rural Hampshire, and the following month of conversations with all sorts of people, helped me form this mental model. it helped me articulate what makes someone rich and impactful to science, or insignificant and forgotten to history.
 
