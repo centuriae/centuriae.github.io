@@ -113,8 +113,8 @@ def build():
     footer_text_raw = config.get('footer_text', '')
     footer_html = markdown.markdown(footer_text_raw.strip()) if footer_text_raw else ""
 
-    intro_text_raw = config.get('intro_text', '')
-    intro_html = markdown.markdown(intro_text_raw.strip()) if intro_text_raw else ""
+    intro_file = Path('intro.md')
+    intro_html = markdown.markdown(intro_file.read_text().strip()) if intro_file.exists() else ""
 
     # Copy Assets
     shutil.copy(CSS_DIR / 'style.css', OUTPUT_DIR / 'style.css')
@@ -155,7 +155,7 @@ def build():
     all_posts = []
 
     # 1. Collect Metadata
-    for md_file in CONTENT_DIR.glob('*.md'):
+    for md_file in sorted(CONTENT_DIR.glob('*.md')):
         with open(md_file, 'r') as f:
             text = f.read()
 
