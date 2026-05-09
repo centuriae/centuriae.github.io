@@ -1,1 +1,1 @@
-How many great ideas exist in distracted minds, or in anxious draft folders? And what is the potential impact of those ideas when articulated?
+An experiment in progress: loosely structured writing retreats, creating space for brilliant people to wrestle with and write down their ideas. [Read more](/posts/00.html), or [sign up](https://forms.gle/EwMPciRoT5rSHPNr9) for a future iteration.

@@ -316,7 +316,7 @@ def build():
         </li>"""
 
     index_content = f"""
-    <div style="max-width: 600px; margin: 4rem auto;">
+    <div style="max-width: 600px; margin: 2rem auto;">
         {intro_block}
         <ul class="index-posts">
             {index_list_items}
