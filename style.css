@@ -219,6 +219,7 @@ code {
     font-size: 0.9rem;
     color: var(--meta-color);
     line-height: 1.7;
+    text-align: center;
 }
 
 /* Retreat divider */
