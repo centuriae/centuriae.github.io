@@ -2,6 +2,7 @@
 title: Building a Biological Oracle
 number: 12
 author: Alfred Brown
+retreat: 1
 ---
 
 <img class="imagecenter" src="assets/12-logo.png" alt="Live Science logo">

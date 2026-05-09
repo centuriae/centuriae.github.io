@@ -3,6 +3,7 @@ title: The Mind That Changes The World
 number: 14
 author: Sourish Sharma
 author_link: https://sourish.com/progress
+retreat: 1
 ---
 
 i recently spent a weekend in rural Hampshire - a writing retreat with 15 other busy people who want to make more time for writing (which is largely a proxy of thinking).

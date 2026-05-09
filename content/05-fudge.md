@@ -3,6 +3,7 @@ title: The Fudge in Front of Me
 number: 05
 author: Callum Rhys Tilbury
 author_link: https://callum.tilbury.co.za
+retreat: 1
 ---
 
 Spend enough time on the productivity corner of the internet and you'll read about Warren Buffett's _5/25 rule_. The idea is about finding focus, forgoing distractions. First, you enumerate twenty-five things on your to-do list (or similarly twenty-five of your goals, aspirations, etc.). Rank them in order of importance, then cross out everything but the top five. The result is two distinct lists, A and B. List A comprises those uncrossed items, and they should become your priorities—focus on them. List B comprises the balance, the crossed-out items. They should not simply be less important, rather they should be *actively avoided*, the argument goes. Since you will easily become distracted by these lower priorities, extra care should be taken to not draw attention away from List A.

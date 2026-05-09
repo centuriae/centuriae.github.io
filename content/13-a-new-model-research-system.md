@@ -2,6 +2,7 @@
 title: A New Model Research System
 number: 13
 author: Harry Chapman
+retreat: 1
 ---
 
 ### Leo Szilard, nuclear physicist, prophetic satirist

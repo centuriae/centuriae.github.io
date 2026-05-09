@@ -107,10 +107,14 @@ def build():
     config = load_config()
     site_title_val = config.get('site_title', 'Centuriae')
     site_title_upper = site_title_val.upper()
-    
+    retreats_map = config.get('retreats', {})
+
     # Process footer markdown
     footer_text_raw = config.get('footer_text', '')
     footer_html = markdown.markdown(footer_text_raw.strip()) if footer_text_raw else ""
+
+    intro_text_raw = config.get('intro_text', '')
+    intro_html = markdown.markdown(intro_text_raw.strip()) if intro_text_raw else ""
 
     # Copy Assets
     shutil.copy(CSS_DIR / 'style.css', OUTPUT_DIR / 'style.css')
@@ -167,15 +171,16 @@ def build():
         if not number:
             prefix = md_file.stem.split('-')[0]
             number = prefix if prefix.isdigit() else None
-            
+
         # Determine slug for permalink - use number if available, else filename
         slug = number if number else md_file.stem
 
         author_name = meta.get('author', [None])[0]
         author_link = meta.get('author_link', [None])[0]
-        
+        retreat_index = meta.get('retreat', [None])[0]
+
         git_info = get_git_info(md_file)
-        
+
         all_posts.append({
             'md_file': md_file,
             'slug': slug,
@@ -183,6 +188,7 @@ def build():
             'number': number,
             'author_name': author_name,
             'author_link': author_link,
+            'retreat_index': retreat_index,
             'git_info': git_info,
             'html_content': html_content,
             'date': git_info['date']
@@ -269,20 +275,49 @@ def build():
             f.write(diff_html)
 
     # 4. Render Index
-    index_list_items = ""
+    # Group posts by retreat, then sort retreats in descending order (newest first).
+    # Within each retreat, posts stay in ascending order.
+    from itertools import groupby
+
+    def retreat_sort_key(p):
+        r = p['retreat_index']
+        try:
+            return int(r) if r is not None else -1
+        except (ValueError, TypeError):
+            return -1
+
+    posts_by_retreat = {}
     for post in all_posts:
-        display_number = f"<span style='font-family: monospace; margin-right: 1em;'>{post['number']}</span>" if post['number'] else ""
-        author_html = f"<a href='{post['author_link']}' target='_blank' rel='noopener noreferrer'>{post['author_name'] if post['author_name'] else post['git_info']['author']}</a>" if post['author_link'] else (post['author_name'] if post['author_name'] else post['git_info']['author'])
-        
-        item_html = f"""
-         <li>
+        r = post['retreat_index']
+        posts_by_retreat.setdefault(r, []).append(post)
+
+    sorted_retreat_keys = sorted(
+        posts_by_retreat.keys(),
+        key=lambda r: (int(r) if r is not None and str(r).lstrip('-').isdigit() else -1),
+        reverse=True
+    )
+
+    intro_block = f'<div class="index-intro">{intro_html}</div>' if intro_html else ""
+
+    index_list_items = ""
+    for retreat_key in sorted_retreat_keys:
+        retreat_label = retreats_map.get(str(retreat_key), f"Retreat {retreat_key}") if retreat_key is not None else ""
+        if retreat_label:
+            index_list_items += f"""
+        <li class="retreat-divider-item">
+            <div class="retreat-divider"><span class="retreat-label">{retreat_label}</span></div>
+        </li>"""
+
+        for post in sorted(posts_by_retreat[retreat_key], key=lambda p: int(p['number']) if p['number'] and str(p['number']).isdigit() else 0, reverse=True):
+            author_html = f"<a href='{post['author_link']}' target='_blank' rel='noopener noreferrer'>{post['author_name'] if post['author_name'] else post['git_info']['author']}</a>" if post['author_link'] else (post['author_name'] if post['author_name'] else post['git_info']['author'])
+            index_list_items += f"""
+        <li>
             <span class='post-number'>{post['number'] if post['number'] else ''}</span><div class='index-entry'><a href='posts/{post['slug']}.html'>{post['title']}</a><span class='author-meta'>{author_html}</span></div>
-        </li>
-        """
-        index_list_items += item_html
-    
+        </li>"""
+
     index_content = f"""
     <div style="max-width: 600px; margin: 4rem auto;">
+        {intro_block}
         <ul class="index-posts">
             {index_list_items}
         </ul>

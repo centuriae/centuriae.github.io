@@ -1,4 +1,9 @@
 {
     "site_title": "Centuriae",
-    "footer_text": "Express interest [here](https://forms.gle/EwMPciRoT5rSHPNr9).\n\nA project by [Callum Rhys Tilbury](https://callum.tilbury.co.za)—trying to be a reformed *Ideas Guy*, biased towards action."
+    "footer_text": "Express interest [here](https://forms.gle/EwMPciRoT5rSHPNr9).\n\nA project by [Callum Rhys Tilbury](https://callum.tilbury.co.za)—trying to be a reformed *Ideas Guy*, biased towards action.",
+    "intro_text": "Centuriae is a writing retreat: a weekend away where a small group of friends commit their boldest ideas to the page. Each essay is written from scratch over the course of the retreat and published here, unpolished and unfiltered. The name comes from the Roman unit of one hundred soldiers—a reminder that good ideas need company.",
+    "retreats": {
+        "0": "Pilot",
+        "1": "6–9 March"
+    }
 }

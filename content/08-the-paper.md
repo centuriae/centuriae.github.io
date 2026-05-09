@@ -2,6 +2,7 @@
 title: The Paper Was Always the Wrong Unit: AI in Academic Papers and the Future of Scientific Knowledge Exchange
 number: 08
 author: Iman Mouloudi
+retreat: 1
 ---
 
 **I. Introduction: The Paper as Category Error**

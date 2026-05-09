@@ -2,6 +2,7 @@
 title: What remains for us?
 number: 10
 author: Charlotte Merzbacher
+retreat: 1
 ---
 
 **Technomoral virtues, Lewisian activities, and humanism in the age of AI**

@@ -2,6 +2,7 @@
 title: A life is worth 10^x tokens
 number: 09
 author: Joshua Placidi
+retreat: 1
 ---
 
 Information is a precursor to intelligence, there must exist some *thing* to observe, understand, and learn patterns from. The architecture behind frontier LLMs is the transformer decoder (TFD) \[[https://arxiv.org/pdf/1706.03762](https://arxiv.org/pdf/1706.03762)\]; it takes sequences of data and learns to understand and generate that data. These are information processing and generating systems. They are/soon will be the best programmers in the world, the best translators, the best pilots, the best information processing systems. Historically humans have held these titles but the gap is quickly shrinking. Humans are **general** information processing and generating systems. They read and write books, study the universe, and pursue the unknown.
