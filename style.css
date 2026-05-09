@@ -257,6 +257,17 @@ code {
     letter-spacing: 0.03em;
 }
 
+.index-posts li .retreat-label-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.75rem;
+    transition: color 0.15s;
+}
+
+.index-posts li .retreat-label-link:hover {
+    color: var(--accent-color);
+}
+
 /* Index List */
 .index-posts {
     padding: 0;
