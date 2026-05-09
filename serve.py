@@ -10,7 +10,7 @@ subprocess.run(["python", "build.py"], check=True)
 
 os.chdir("_build")
 
-import socket, threading, webbrowser
+import socket
 
 while True:
     try:
@@ -22,5 +22,4 @@ while True:
         PORT += 1
 
 print(f"\nServing at http://localhost:{PORT}\n")
-threading.Timer(0.5, lambda: webbrowser.open(f"http://localhost:{PORT}")).start()
 http.server.test(HandlerClass=http.server.SimpleHTTPRequestHandler, port=PORT, bind="")

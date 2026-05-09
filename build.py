@@ -299,13 +299,22 @@ def build():
 
     intro_block = f'<div class="index-intro">{intro_html}</div>' if intro_html else ""
 
+    import re
+
+    def slugify(text):
+        text = text.lower()
+        text = re.sub(r'[^\w\s-]', '', text)
+        text = re.sub(r'[\s_]+', '-', text)
+        return re.sub(r'-+', '-', text).strip('-')
+
     index_list_items = ""
     for retreat_key in sorted_retreat_keys:
         retreat_label = retreats_map.get(str(retreat_key), f"Retreat {retreat_key}") if retreat_key is not None else ""
         if retreat_label:
+            anchor_id = slugify(retreat_label)
             index_list_items += f"""
-        <li class="retreat-divider-item">
-            <div class="retreat-divider"><span class="retreat-label">{retreat_label}</span></div>
+        <li class="retreat-divider-item" id="{anchor_id}">
+            <div class="retreat-divider"><span class="retreat-label"><a href="#{anchor_id}" class="retreat-label-link">{retreat_label}</a></span></div>
         </li>"""
 
         for post in sorted(posts_by_retreat[retreat_key], key=lambda p: int(p['number']) if p['number'] and str(p['number']).isdigit() else 0, reverse=True):
