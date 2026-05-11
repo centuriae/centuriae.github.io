@@ -72,25 +72,20 @@ def get_file_history(filepath):
         print(f"Error getting history for {filepath}: {e}")
         return []
 
-def generate_pdf_container(pdf_path):
-    """Generate responsive PDF container HTML."""
-    return f"""<p style="text-align: center; margin-bottom: 1rem;">
-    <a href="{pdf_path}" target="_blank" style="text-decoration: underline;">View PDF in new tab ↗</a>
-</p>
-<div class="pdf-container">
-    <embed src="{pdf_path}" type="application/pdf" />
-</div>"""
+def generate_pdf_link(pdf_path):
+    """Generate a small unobtrusive 'Open PDF' link."""
+    return f'<p class="pdf-link"><a href="{pdf_path}" target="_blank" rel="noopener noreferrer">Open PDF ↗</a></p>'
 
 
 def process_pdf_markers(content):
-    """Process <!-- PDF: path/to/file.pdf --> markers and replace with HTML containers."""
+    """Process <!-- PDF: path/to/file.pdf --> markers and replace with a small link."""
     import re
 
     pattern = r"<!-- PDF:\s*([^\s]+)\s*-->"
 
     def replace_marker(match):
         pdf_path = match.group(1)
-        return generate_pdf_container(pdf_path)
+        return generate_pdf_link(pdf_path)
 
     return re.sub(pattern, replace_marker, content)
 

@@ -348,24 +348,73 @@ code {
 .footnote {
     font-size: 0.85rem;
 }
-/* PDF Container */
-.pdf-container {
-    margin: 2rem 0;
-    border: 1px solid var(--border-color);
-    border-radius: 2px;
-    overflow: hidden;
-    height: 800px;
+/* PDF link (small, unobtrusive) */
+.pdf-link {
+    text-align: right;
+    font-size: 0.85rem;
+    color: var(--meta-color);
+    margin: 0 0 1.5rem 0;
 }
 
-.pdf-container embed {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: none;
+.pdf-link a {
+    color: var(--meta-color);
+    text-decoration: underline;
+    text-decoration-color: var(--border-color);
+}
+
+/* Image layout helpers */
+.image-row {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-row img {
+    flex: 1 1 0;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-float-right {
+    float: right;
+    max-width: 45%;
+    margin: 0.25rem 0 0.5rem 1rem;
+}
+
+.image-float-left {
+    float: left;
+    max-width: 40%;
+    margin: 0.25rem 1rem 0.5rem 0;
+}
+
+.image-float-right + p,
+.image-float-left + p {
+    overflow: hidden;
+}
+
+.float-clear {
+    clear: both;
 }
 
 @media (max-width: 600px) {
-    .pdf-container {
-        height: 500px;
+    .image-row {
+        flex-direction: column;
+    }
+
+    .image-row img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .image-float-right,
+    .image-float-left {
+        float: none;
+        max-width: 100%;
+        margin: 1rem auto;
+        display: block;
     }
 }
