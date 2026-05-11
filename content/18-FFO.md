@@ -34,13 +34,18 @@ A Forge also contains a small permanent staff team: coaches, mentors, and operat
 
 Eventually, a Forge's success will be measured in what its alumni Forgers go on to build, lead, and forge in turn after they leave.
 
+<figure class="collab-figure" style="max-width: 700px; margin: 20px auto;">
+  <img src="assets/18-FFO-overview.png" alt="An overview of the FFO concept" style="width: 100%; border-radius: 8px; display: block;">
+  <figcaption style="text-align: center; font-size: 14px; color: gray;">A Focused Forging Organization, according to Gemini.</figcaption>
+</figure>
+
 ### What can you expect as a Forger?
 
 FFOs are designed to develop Forgers across three dimensions. This three-way integration is what differentiates them from other places. Most institutions train one or two of these well, but rarely all three together.
 
 The first dimension is technical. Just like any other fast-paced small organization, an FFO requires Forgers to deliver high-quality work. This is no different from, say, a high-performing startup. The presence of these high expectations is important, as it creates the background pressure under which the other skills (those that are usually overlooked) can be developed.
 
-The second is high-performance psychology. The goal here is to produce individuals with the ability to focus, recover, and to high standards under pressure, over years, all the while remaining immune to burnout and having a good time. 
+The second is high-performance psychology. The goal here is to produce individuals with the ability to focus, recover, and deliver against high standards, under pressure, over years, all the while remaining immune to burnout and having a good time.
 
 Here, elite sports and special military forces are quite far ahead and we can learn a lot from those environments. Examples include [Pete Carroll and Michael Gervais with the Seattle Seahawks](https://www.forbes.com/sites/roncarucci/2020/09/13/master-these-nfl-winning-secrets-to-thrive-in-uncertainty-and-reach-your-highest-performance/), [George Mumford with the Bulls and Lakers](https://www.youtube.com/watch?v=uFW2bCUhE7w), and [Eric Potterat with the US Navy SEALs](https://theartofcharm.com/art-of-personal-development/learned-excellence-leadership-lessons-from-the-navy-seals-dr-eric-potterat/). 
 
@@ -66,13 +71,11 @@ I think it's different. A Forge is not:
 
 * a bootcamp or training program: those happen off-the-job, while an FFO happens in the work itself.
 
-
-
 ### A few other thoughts...
 
-* We shouldn't expect Forgers to become amazing at everything. A Forge should be an environment where people get extremely good at what they're naturally good at, and address the weaknesses that are otherwise ignored by most organizations.
+* We shouldn't expect Forgers to become amazing at everything. A Forge should be an environment where people get extremely good at what they're naturally good at, and address the weaknesses that limit their impact and are otherwise ignored by other institutions.
 
-* One hypothesis I keep coming back to: this kind of organization, despite being designed for training, might actually be more competitive than other existing organizations or competitors. If true, the conclusion might be that an FFO is actually sometimes just a better way to run an organization.
+* One hypothesis I keep coming back to: this kind of organization, despite being designed for training, might actually be more competitive than other existing organizations or competitors. If true, the conclusion might be that an FFO is actually sometimes just a better way to run a company.
 
 * We could imagine a model where Forgers rotate through different roles inside the organization. For example, running operations for a quarter, leading a workstream, or sitting in the CEO seat for a defined period. I don't know how well this would work in practice, but I'd like to explore the idea more.
 
@@ -86,7 +89,7 @@ I think it's different. A Forge is not:
 
 The binding constraint on solving hard technological or scientific problems that take years of dedicated effort and hard work is sometimes capital, sometimes ideas, but more often than not, it's people. Exceptional people. People who can do world-class ground-breaking work, sustain it across years of failure and pressure, and bring others up alongside them.
 
-Those people exist, and you might have come across some of them. As we seek to tackle the big challenges of our time, we will need more of them to lead. That's the aim of FFOs.
+Those people exist, and you might have come across some of them. As we seek to tackle the big challenges of our time, we will need more of them to lead. FFOs aim to quickly bring those people to even higher levels.
 
 The issue is: our institutions are not really designed to produce those people on purpose. If anything, they often emerge by accident, as a byproduct of something else, or despite our existing systems and institutions.
 
@@ -94,9 +97,7 @@ Schools and universities are remarkable early training grounds. For most of us, 
 
 Startup accelerators, incubators, and similar programs try to develop talent more directly. They've been an effective launchpad for many ambitious founders, providing capital, networks, and tactical guidance at a critical moment. But their main goal remains building profitable companies, and the people-development work often sits at the edges of those programs. The growth that makes a founder exceptional still tends to happen on their own time.
 
-Startups and fast-paced organizations can also provide an amazing training ground. The pace and expectations present in those environments can be a great catalyst for fast personal growth. Examples include DeepMind and OpenAI in the AI world, Pixar in animation, and The Daily Show under Jon Stewart in comedy.
-
-These organizations are famous because of what they produced, but more importantly because of *who* they produced. FFOs aim to replicate and extend this pattern.
+Startups and fast-paced organizations can also provide an amazing training ground. The pace and expectations present in those environments can be a great catalyst for fast personal growth. Examples include DeepMind and OpenAI in the AI world, Pixar in animation, and The Daily Show under Jon Stewart in comedy. These organizations are famous because of what they produced, but more importantly because of *who* they produced. FFOs aim to replicate and extend this pattern.
 
 The programs that do try to develop individuals on purpose (leadership programs, MBAs, executive coaching, high-performance training) often draw on real research and practice. They've helped many people develop frameworks for thinking through hard decisions and sharpen self-awareness about their own inner world. But almost all of their teaching happens in fabricated environments and away from the situations in which we want them to perform, whether in classrooms and weekend retreats or in special projects and coaching sessions.
 
