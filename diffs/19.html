@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution: The Polyglot Founder</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../diff.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body class="diff-page">
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo">Centuriae</a></nav>
+    </header>
+
+    <main>
+        <article class="revision-header">
+            <a href="../posts/19.html" class="back-link">&larr; Back to Post</a>
+        
+            <div class="diff-meta-top">
+                <span class="post-num" style="font-family: var(--font-mono); opacity: 0.5;">19</span>
+                <h1 style="display:inline; margin-left: 1rem;">The Polyglot Founder</h1>
+            </div>
+<div class="diff-layout">
+    <div class="pane-header">
+        <div id="hashTransition"></div>
+        <div id="timeline" class="timeline"></div>
+    </div>
+                <div class="code-container" id="diffContainer">
+                    <!-- Diff injected here -->
+                </div>
+                </div>
+                
+                <div class="commit-info">
+                    <div class="commit-details">
+                        <h3 id="commitMsg">Loading history...</h3>
+                        <div class="commit-meta">
+                            <span id="commitHash" style="font-family: var(--font-mono);"></span> &bull;
+                            <span id="commitDate"></span>
+                    </div>
+                    </div>
+            </div>
+            <!-- Hidden element for JS reference if needed -->
+            <span id="rev-date" style="display:none;"></span>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+    <script src="../js/diff.js"></script>
+    <!-- Store JSON in a script tag to avoid auto-formatter issues -->
+    <script id="history-data" type="application/json">[{"hash": "4fea746", "date": "2026-05-12T11:23:18+01:00", "subject": "Felix 19.", "content": "---\ntitle: The Polyglot Founder\nnumber: 19\nauthor: Felix Culas\nauthor_link: https://substack.com/@felixculas\nretreat: 2\n---\n\n[Cleantech Innovators](https://cleantechinnovators.substack.com/) covers what it takes to scale an idea to deployment.\n\nMy current lens on how this happens is to equate scaling climate tech to mastering multiple languages. Monolingual founders can\u2019t bring cutting edge innovations to the world. Too boxed into science lab norms, and you\u2019ll scare the institutions needed to scale the invention. Too institutional, and you\u2019re unlikely to be keeping up to date on what\u2019s happening at the frontiers.\n\nThe founders who scale are polyglots who are fluent in science, institutions, and capital. This piece goes through the newsletter\u2019s recent pieces through that lens.\n\n---\n\n## The languages of scale\n\nThe first language is science. Inventing novel ways of applying physics, chemistry and biology to solve climate problems.\n\nThis newsletter doesn\u2019t cover the science, there are better people for that. The focus here is more on the second and third languages: institutions and capital.\n\nHeavy industry. Governments. Regulatory bodies. These are key institutional gatekeepers of climate tech deployment. It\u2019s obvious that each institution is different from the other. It\u2019s fascinating that they are different *within* each other. The chameleon is the best mascot for navigating them.\n\nAnd capital cuts across the other two languages. Misallocate capital and you risk killing the entire operation.\n\n---\n\n## The institutional dialects\n\n### i. Speak to the room, not the building\n\nIn a B2C business model, you ideally have one customer profile. For B2B and B2G, that approach won\u2019t close the sale. The pitch to the CEO is very different from the pitch to the plant manager.\n\nTo get the PepsiCo contract, Aquacycl worked different rooms. All of them. They navigated PepsiCo\u2019s corporate, procurement, asset management, sustainability, purchasing and site utility directors to get their contract signed. And the generic pitch will fail you:\n\n> *\u201cWith every enterprise client that we\u2019ve worked with, it\u2019s the same deal,\u201d she explains. \u201cWe have to sell separately, with different metrics, with different priorities.\u201d \u201cAll those internal audiences have to say yes, and they need different messages that resonate.\u201d*\n> \n> **Orianna Bretschger, CEO and Co-Founder of Aquacycl**\n\nAnd while your high level connections can get your foot in the door, that\u2019s only half the battle.\n\nCarbonRe\u2019s government contacts brokered introductions to the CEOs of cement companies. Yet [they still flew in 15 engineers](https://cleantechinnovators.substack.com/i/193954115/flying-your-customers-in) from 8 of these cement producers to build models side by side.\n\n[A grid tech startup](https://cleantechinnovators.substack.com/i/190537697/the-door-opener) used warm intros from regulators to get in the room with the CEO of a power utility. They still needed to customise their pitches to different parts of the org chart.\n\nThe C-Suite touchpoint gets you in the building, but that\u2019s where the real work begins to influence the day-to-day operators using the product.\n\n### ii. Boring works\n\nThe second institutional dialect is credibility. Startups are a risk for conservative buyers.\n\nThe 2026 Startup and Scale Up Water Summit in Barcelona made this observation concrete:\n\n> Innovators at the Startup and Scale Up Water Summit left Barcelona with one golden rule seared into their brains: **Water must always be flowing, and at the quality required. No exceptions.**\n> \n> Water utilities and industrials have no room to fail. If they fail, public health collapses.\n\nUtilities are risk-averse by design. If a B2B SAAS malfunctions, you ship an update. If a public utility fails, lives are at risk.\n\nThe summit offered a counterintuitive fix for startups: be the boring, safe option. Startups should borrow credibility. Tier 1 contractors like Glanua have decades of institutional trust; a startup launching its first paid pilot does not.\n\nThe startup-contractor partnership is a good fit. Contractors access cutting edge innovations, startups access institutional buyers. For EU-based innovators, getting your technology recognised as a Best Available Technique (BAT) by INCITE is another badge that speaks the institution\u2019s language before you\u2019ve said a word.\n\n### iii. Follow the rules\n\nThe third dialect is regulatory fluency. In alt protein, the dossier you submit to regulators unlocks your right to sell anything. Submitting a weak one could bankrupt the startup. At the Bezos Centre for Sustainable Protein\u2019s Annual Conference, [Atova Regulatory Consulting warned](https://cleantechinnovators.substack.com/i/190271885/1-build-a-perfect-dossier) that investors will pressure startups to submit it as soon as possible. The irony is that this could cause mistakes and delay the path to revenue even further. It pays to not skip the rulebook. Hire people who know it inside out.\n\n---\n\n## Financial dialects\n\nThe third language is capital. Money is a language snob who will punish you for saying the wrong thing at the wrong time.\n\n### i. The early stage mismatch\n\nThe Missing Middle piece described this most starkly. A startup with strong product-market fit walks into a bank expecting excitement. Instead, you run into a structural mismatch:\n\n> Startups fail to escape the valley not because of their performance, but because of the structural mismatch of available capital once you graduate from small scale pilots:\n> \n> **Impatient capital**: VCs want an exit in 5-7 years; hardware factories take that long just to build.\n> \n> **Wallet/belief mismatch**: The VCs who believe in your tech don\u2019t have pockets deep enough to build the factory. The bankers who do have the money are too conservative to play ball.\n> \n> **Safer alternatives**: Bankers providing green finance prefer solar farms and battery energy storage (BESS) projects for their predictable cash flows.\n> \n> CTVC calls this funding phase the \u201cmissing middle\u201d: VCs can\u2019t fund it, bankers won\u2019t.\n\nVCs operate on 5-7 year cycles. But hardware factories take that long just to build. Bankers want predictable cash flows but new tech lacks credit history. Funds like PureTerra Ventures were honest about this at the Water Tech Summit: If you\u2019re still working to achieve TRL 6, your timelines may not line up.\n\n### ii. Conservative and patient capital\n\nBut startups would be remiss to just focus on VC funding. There are other forms of capital built for the long game. SKion Water leans toward long-term stewardship rather than exit timelines. In a case study from the Water Tech Summit, SKion Water didn\u2019t even write a cheque. Instead, they engineered a joint venture with a European partner to provide the specific working capital a startup needed to fulfil its orders. Value creation without a direct investment.\n\n[Family offices](https://cleantechinnovators.substack.com/i/190537697/the-insider-edge) with heavy industry ties play a similar role in grid tech. They understand the industry\u2019s sales cycle because they\u2019ve lived it themselves. They can ignore early traction because they know what\u2019s coming and how to get to the finish line.\n\n### iii. Philanthropic and mission capital\n\nAt the Bezos Conference, F\u00e1bio Faria Oliveira of the Novo Nordisk Foundation [made the case clearly](https://cleantechinnovators.substack.com/i/190271885/1-start-with-the-philanthropist): philanthropic foundations take on risks that others can\u2019t. They are a necessary first step to progress impactful ideas from research to reality. Government bodies like [UKRI](https://www.ukri.org/apply-for-funding/) and [ARIA](https://aria.org.uk/funding-opportunities/) also deploy capital for the earliest phases of innovation.\n\nThe VC, philanthropist and banker speak different dialects of capital. Knowing what to say, and who to approach first, is the capital stack puzzle that a founder needs to master.\n\n---\n\n## The unresolved tension\n\nReflecting on fluency, I posed this question to a room of writers and thinkers at a retreat this weekend:\n\n**If you\u2019re a deep tech founder, should you become fluent in all three languages, or hire and seek co-founders for your gaps?**\n\nThe closest we got to a consensus was that every founder should know enough to challenge an expert and answer FAQs across all three domains. But even this was countered with examples: Founders using AI to accelerate their fluency as they go along. A former politician hiring talented engineers to launch a nuclear energy startup.\n\nI directionally agree that the founding team must collectively cover all three languages. But it\u2019s not in a \u2018stay in your lane\u2019 mindset. Each founder should be fluent in one and comprehend the rest. Enough to know when something is being lost in translation, and to avoid crossed wires.\n\n---\n\nIt\u2019s easy to box yourself into a lane and call it specialisation. But do climate tech founders have that luxury? Is being a polyglot founder table stakes? I\u2019m still figuring that out.\n\n<figure class=\"collab-figure\" style=\"max-width: 700px; margin: 20px auto;\">\n  <img src=\"assets/19-train.webp\" alt=\"Onboard a train to the retreat in South East England last weekend\" style=\"width: 100%; border-radius: 8px; display: block;\">\n<figcaption style=\"text-align: center; font-size: 14px; color: gray;\">Onboard a train to the retreat in South East England last weekend</figcaption>\n</figure>\n", "filename": "19-the-polyglot-founder.md"}]</script>
+    <script>
+                (function () {
+                    const historyData = JSON.parse(document.getElementById('history-data').textContent);
+                    initDiff(historyData);
+            })();
+    </script>
+
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>Express interest <a href="https://forms.gle/EwMPciRoT5rSHPNr9">here</a>.</p>
+<p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
