@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution: The Feeling of Grief</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../diff.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body class="diff-page">
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo">Centuriae</a></nav>
+    </header>
+
+    <main>
+        <article class="revision-header">
+            <a href="../posts/21.html" class="back-link">&larr; Back to Post</a>
+        
+            <div class="diff-meta-top">
+                <span class="post-num" style="font-family: var(--font-mono); opacity: 0.5;">21</span>
+                <h1 style="display:inline; margin-left: 1rem;">The Feeling of Grief</h1>
+            </div>
+<div class="diff-layout">
+    <div class="pane-header">
+        <div id="hashTransition"></div>
+        <div id="timeline" class="timeline"></div>
+    </div>
+                <div class="code-container" id="diffContainer">
+                    <!-- Diff injected here -->
+                </div>
+                </div>
+                
+                <div class="commit-info">
+                    <div class="commit-details">
+                        <h3 id="commitMsg">Loading history...</h3>
+                        <div class="commit-meta">
+                            <span id="commitHash" style="font-family: var(--font-mono);"></span> &bull;
+                            <span id="commitDate"></span>
+                    </div>
+                    </div>
+            </div>
+            <!-- Hidden element for JS reference if needed -->
+            <span id="rev-date" style="display:none;"></span>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+    <script src="../js/diff.js"></script>
+    <!-- Store JSON in a script tag to avoid auto-formatter issues -->
+    <script id="history-data" type="application/json">[{"hash": "f1f5b98", "date": "2026-05-12T20:23:59+01:00", "subject": "adds \"the feeling of grief\"", "content": "---\ntitle: The Feeling of Grief\nnumber: 21\nauthor: Arnol Fokam\nretreat: 2\n---\n\nHave you ever grieved the ones alive? \n\nHave you ever wished to be more than what you were, so you could be worthy of your past?\n\nYou ran away multiple times, and with each escape, you took a piece of her trust. \n\nOf course, her love is still in front of you, but you have failed way too many times. Perhaps, in another lifetime, but for now, *rest*...\n\nBut you want to be foolish one more time. Make them question your sanity. \n\nWhy can\u2019t you just leave for once?! Why can\u2019t you let her heal? Heal away from you, and then learn what a life looks like without your jokes echoing through her days. \n\nWhy is it so hard to enter the graveyard of her heart? Why are you so scared of being just a memory?\n\nAre you really in love with her, or are you just in love with the feeling of being loved? \n\nIt is not fair to her and the ones who have to pick the pieces every time you break her. \n\nYou want to go and leave her in peace, but the idea of being just a memory in her story is **frightening**.", "filename": "21-the-feeling-of-grief.md"}]</script>
+    <script>
+                (function () {
+                    const historyData = JSON.parse(document.getElementById('history-data').textContent);
+                    initDiff(historyData);
+            })();
+    </script>
+
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>Express interest <a href="https://forms.gle/EwMPciRoT5rSHPNr9">here</a>.</p>
+<p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
