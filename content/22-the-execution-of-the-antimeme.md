@@ -6,9 +6,6 @@ author_link: https://raahulsingh.net
 retreat: 2
 ---
 
-
-# The Execution of an Antimeme
-
 They called him Blob. To some Blob represented the frontier of human knowledge, to others an insult. To a few, Blob was the manifestation of the Divine, captured in a small cubical black box. But to the Foundation, Blob was a cosmic error.
 On the charge of “Crimes Against Human Intellect”, Blob was sentenced for extermination; A judgement which proved to be quite controversial within the Foundation. Three camps arose:
 
