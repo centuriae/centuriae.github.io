@@ -146,6 +146,9 @@ main {
 .content {
     font-size: 1.05rem;
     text-align: justify;
+    /* Break long words/URLs (e.g. full links in footnotes) so they
+       don't overflow horizontally and hurt readability on mobile. */
+    overflow-wrap: break-word;
 }
 
 .content p {
