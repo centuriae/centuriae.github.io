@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution: Are We the Martians Under the Bed?</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../diff.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body class="diff-page">
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo">Centuriae</a></nav>
+    </header>
+
+    <main>
+        <article class="revision-header">
+            <a href="../posts/27.html" class="back-link">&larr; Back to Post</a>
+        
+            <div class="diff-meta-top">
+                <span class="post-num" style="font-family: var(--font-mono); opacity: 0.5;">27</span>
+                <h1 style="display:inline; margin-left: 1rem;">Are We the Martians Under the Bed?</h1>
+            </div>
+<div class="diff-layout">
+    <div class="pane-header">
+        <div id="hashTransition"></div>
+        <div id="timeline" class="timeline"></div>
+    </div>
+                <div class="code-container" id="diffContainer">
+                    <!-- Diff injected here -->
+                </div>
+                </div>
+                
+                <div class="commit-info">
+                    <div class="commit-details">
+                        <h3 id="commitMsg">Loading history...</h3>
+                        <div class="commit-meta">
+                            <span id="commitHash" style="font-family: var(--font-mono);"></span> &bull;
+                            <span id="commitDate"></span>
+                    </div>
+                    </div>
+            </div>
+            <!-- Hidden element for JS reference if needed -->
+            <span id="rev-date" style="display:none;"></span>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+    <script src="../js/diff.js"></script>
+    <!-- Store JSON in a script tag to avoid auto-formatter issues -->
+    <script id="history-data" type="application/json">[{"hash": "ea04b38", "date": "2026-07-12T23:10:01+01:00", "subject": "merel piece", "content": "---\ntitle: Are We the Martians Under the Bed?\nnumber: 27\nauthor: Merel\nretreat: 3\n---\n\nAbiogenesis is the process by which life arises from non-living matter.\nBefore reading my new favorite book, *The Eerie Silence: Searching for\nOurselves in the Universe* by Paul Davies, I took it for granted that\nlife must have emerged on Earth. Indeed, among the many theories\ndiscussed, this is still probably the most widely accepted view.\nHowever, as Davies explains, it is possible that our roots may actually\nlie on Mars.\n\n## 1. Why Don't We Know?\n\nOne of the reasons why this question remains so difficult to answer is\nthat Earth's oldest geological record has largely been lost. The Earth's\nsurface has continuously been reshaped by plate tectonics, erosion, and\nweathering. The sedimentary rocks that preserve signs of life best are\ngenerally much younger, largely because photosynthesis has produced vast\namounts of biomass at the Earth's surface over the last 2.5 billion\nyears. Although there is an almost universal consensus that traces of\nlife dating back 3.5 billion years exist in the Pilbara region of\nWestern Australia, and even older potential traces have been found in\nGreenland---one of the oldest and best-preserved pieces of the Earth's\ncrust, which once formed the seafloor of ancient oceans---the evidence\nfor life's very beginnings has largely disappeared [^1][^2][^3]. Because the Earth's earliest geological record is so poorly\npreserved, we lack empirical evidence for how life was created, and many\nideas about abiogenesis are instead investigated through laboratory\nexperiments [^2].\n\n## 2. Why Mars?\n\nDuring the first 700 million years of their history, both Earth and Mars\nwere impacted by large boulders and asteroids, which would have hindered\nthe formation, evolution, and preservation of life, particularly surface\nlife [^1][^2]. Earth, however, experienced more of these\nimpactors due to its stronger gravity; for example, the collision with\nTheia, the Mars-sized object from which part of the material would later\nform our Moon, may have sterilized our planet [^4]. Mars also\ncooled down faster due to being only about 10% as massive as Earth,\nresulting in potentially stable surface conditions earlier than on\nEarth.\n\nMany of the hypotheses for the origin of life, including the popular\nmarine hydrothermal vent and hot spring hypotheses, have also been\nproposed as possible, and in some cases even more favourable,\nenvironments on Mars that could have supported the emergence of life\n[^5]. For example, warm freshwater ponds, such as those found in\nvolcanic regions or around hot springs, provide compelling conditions\nfor the emergence of life. It is this latter environment that makes Mars\nparticularly interesting. Ancient Martian hot springs would likely have\nbeen far more stationary than those on Earth because of the planet's\nmuch lower levels of tectonic activity [^5].\n\nLuckily for us, this, combined with Mars' much lower weathering rates\nthroughout its history, has resulted in the planet preserving a far\nolder and better geological record than Earth. Therefore, Mars could\npotentially be the place where we eventually discover the earliest\ntraces of life.\n\n## 3. From a galaxy far away?\n\nThis naturally begs the question: if life could have emerged on Mars and\ntravelled to Earth aboard meteorites, could it not also have travelled\nto us from a galaxy far away? The broader idea that life originated\nelsewhere in the universe and spread between planets is known as\npanspermia.\n\nProbably not from another galaxy. The gap between the Milky Way and the\nAndromeda Galaxy, our nearest large galactic neighbour, is about 2.5\nmillion light-years. A rock would require billions of years to cross\nsuch a distance, and no known microbe or spore shielded inside a\nmeteorite could survive exposure to cosmic radiation for that long. Of\ncourse, if life had been deliberately transported by an advanced\ncivilisation, this would still remain a possibility, although one that\nis considered much more fringe.\n\nWithin our own Solar System, however, there are multiple worlds from\nwhich life could also have potentially travelled, albeit less plausibly\nthan from Mars.\n\nAll in all, incredible as it already is that life emerged on Earth, I\nfind it even more exciting to think that our oldest relatives may have\nlived somewhere we could not meet (yet) for Sunday brunch. Greetings to\nthem from Earth!\n\n**Disclaimer:** Things are not very accurate, but due to the fact that\nI've only just really read one book about it, and that this text will\nnot be a scientific source, I will leave it at this. \u2014 Merel out.\n\n## References\n\n[^1]: Paul Davies. *The Eerie Silence: Renewing Our Search\n    for Alien Intelligence*. Houghton Mifflin Harcourt, Boston, 2010.\n\n[^2]: Joseph R. Michalski, Tullis C. Onstott, Stephen J.\n    Mojzsis, John Mustard, Queenie H. S. Chan, Paul B. Niles, and Sarah\n    Stewart Johnson. *The Martian subsurface as a potential window into\n    the origin of life*. *Nature Geoscience*, 11(1):21--26, 2018.\n\n[^3]: Scripps Institution of Oceanography. *Research\n    highlight: Ancient plate tectonics*.\n    https://scripps.ucsd.edu/news/research-highlight-ancient-plate-tectonics,\n    April 2007. Accessed: 2026-07-12.\n\n[^4]: Gregory M. Davis, Jonathan Horner, Bradley D. Carter,\n    and Stephen C. Marsden. *Could life have been transferred from Mars\n    to Earth? Laboratory and computational simulations of Martian\n    ejecta*, 2026. Accepted to appear in the peer-reviewed proceedings\n    of the 24th Australian Space Research Conference.\n\n[^5]: Alex Longo and Bruce Damer. *Factoring origin of life\n    hypotheses into the search for life in the solar system and beyond*.\n    *Life*, 10(5):52, 2020.\n", "filename": "27-are-we-the-martians.md"}]</script>
+    <script>
+                (function () {
+                    const historyData = JSON.parse(document.getElementById('history-data').textContent);
+                    initDiff(historyData);
+            })();
+    </script>
+
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>Express interest <a href="https://forms.gle/EwMPciRoT5rSHPNr9">here</a>.</p>
+<p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Missing Biomarker in Drug Discovery</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script>
+            (function () {
+            const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            if (theme === 'dark') document.documentElement.classList.add('dark-mode');
+        })();
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <nav><a href="../index.html" class="site-logo">Centuriae</a></nav>
+    </header>
+    <main>
+        <article>
+            <header class="post-header">
+                <h1>The Missing Biomarker in Drug Discovery</h1>
+                <div class="meta"><span style='font-family: var(--font-mono);'>26</span> &nbsp; | &nbsp; By <a href='https://zoehoare.substack.com/' target='_blank' rel='noopener noreferrer' style='color: inherit; text-decoration: underline; text-decoration-color: var(--border-color);'>Zoë Hoare</a> &nbsp; | &nbsp; Last updated: 2026-07-12 &nbsp; | &nbsp; <a href='../diffs/26.html?commit=80f2734' style='color: inherit; text-decoration: underline; text-decoration-color: var(--border-color);'>View Timeline</a></div>
+            </header>
+            <div class="content"><h3><em>Why measuring mitochondrial function will transform how we develop, evaluate and personalise medicines for complex disease.</em></h3>
+<p>Imagine that a complex disease like heart failure or Alzheimer’s is a car with a failing engine. We try everything to keep the car moving: taking the load off, fixing leaks and blockages, adding more fuel, stopping it from overheating, even manually pushing it along the road. The one thing we don’t do is fix the engine.  </p>
+<p>This engine is a metaphor for the mitochondria in our body<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> – the small parts of every cell that ‘power’ the body in the same way that an engine powers a car.   </p>
+<p>But why are we not fixing the engine? Because we don’t have a good biomarker of its function. More specifically, we don’t have a direct readout of mitochondrial energetics in the body. If we could dynamically measure the function of mitochondria at the system level, we would finally have a way to make better drugs that target the right people.</p>
+<h3>The measurement problem in drug discovery</h3>
+<p>In the last five years, more than 5,000 compounds have entered clinical development<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Yet, the rate of approval for compounds entering phase I trials is just 10%. This process is catastrophically expensive and extremely time consuming. For just one drug, the cost of bringing it to market is estimated at \~$3 billion, and this takes on average 10-15 years<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>.</p>
+<p>This failure is costing <em>hundreds of billions</em> of dollars. Meanwhile, the burden of disease is still astronomically high. Cardiovascular disease remains the leading cause of death<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup>, and roughly 1 in 10 people over the age of 65 are currently living with a neurodegenerative disease like Alzheimer’s or Parkinson’s.  </p>
+<p>So, why do so many drugs that enter clinical development fail? This is partly because we don’t test them on the right groups of people, and partly because we don’t have the right biomarkers to show that the drugs are having an effect. In the present age, we are great at designing molecules. The problem lies in predicting and measuring how they behave in living, ageing, metabolically complex humans.</p>
+<h3>An emerging biological framework: the bioenergetic view of disease</h3>
+<p>We need a better way to think of disease so that we can make better drugs. This is the bioenergetic perspective.  </p>
+<p>Interestingly, drugs are now emerging that benefit populations they were not originally designed for. Take SGLT2 inhibitors, for example. Empagliflozin was designed to treat diabetes by increasing urinary glucose excretion. In clinical trials, it ended up causing a 38% reduction in cardiovascular death and a 35% reduction in heart failure hospitalisation<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>. Now, this drug is recommended as first-line treatment for heart failure. The important thing to take from this is that the cardiac benefits of these drugs would never have been discovered with our standard methods of drug discovery approaches that rely on static biomarkers such as cholesterol.   </p>
+<p>An emerging view of complex diseases is as systemic, multi-organ conditions driven by interconnected biological pathways<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>. These are fundamentally disorders of <em>bioenergetic mismatch and metabolic reprogramming.</em>  </p>
+<h3>Moving from static to dynamic biomarkers</h3>
+<p>Static readouts are no longer good enough for drug discovery. These just give us a single snapshot of one biomarker at one moment in time. They report abundance, not function – cholesterol concentration, glucose levels, inflammatory proteins. Heart failure therapies are evaluated using cardiac troponin<sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup>, which marks necrosis, not early functional impairment. They are rarely tissue-specific or dynamic, and ignore metabolic flux. In clinical trials, this translates into reliance on hard outcomes such as hospitalisation, mortality, and MACE<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup>, all of which occur late and are expensive to measure.  </p>
+<p>There are even examples of drugs that successfully corrected a biomarker of disease but <em>worsened</em> the underlying physiology. This was the case for torcetrapib – a drug that improved cholesterol (lowering LDLs by 25% and raising HDLs by 72%), but actually ended up worsening mortality rates<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>. The effect on one biomarker did not show the overall systemic impact.  </p>
+<p>To fix this, we need to shift to a more dynamic, physiological marker of disease, and we need to choose the right populations to test drugs on. We can do this with functional measurements of our <em>mitochondrial energetics.</em></p>
+<h3>Mitochondrial function as a dynamic systems-level biomarker</h3>
+<p>Mitochondria are central to health and disease. They are responsible for providing the energy we need to carry out all biological processes to keep us alive. And they are so much more than just the ‘powerhouse’ – they integrate signals from metabolism, inflammation, hypoxia, mechanical stress and ageing<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup>. Their energetic state represents the combined output of numerous upstream biological pathways rather than a single molecular target.  </p>
+<p>We have already seen the success of measuring energetics to predict mortality. In 1997, Neubauer <em>et al</em><sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup> used magnetic resonance spectroscopy to measure the cardiac phosphocreatine to ATP ratio (a measure of energetics) in patients with dilated cardiomyopathy and followed them for two years. Those with a depleted energetic state had a mortality rate of 40%, whereas those with a preserved energetic state had a mortality rate of 11%. This measurement was able to predict those more at risk, presenting an earlier opportunity for treatment. However, this technology was not able to scale. Magnetic resonance spectroscopy is technically complex and expensive, and ultimately only gives an indirect readout of mitochondrial function.  </p>
+<p>A more direct, tissue-specific energetic readout could transform this. Mitochondrial biomarkers could serve as early efficacy readouts, dose-finding tools, go/no-go decision points, as well as predictors of long-term outcomes. This could provide an opportunity to intervene early enough to <em>prevent</em> overt disease rather than manage the symptoms. This is important for any drug that affects metabolism at a systemic level, but particularly as the first wave of mitochondrial-targeting compounds emerge.  </p>
+<h3>Personalised medicine through bioenergetic stratification</h3>
+<p>Patients with the same disease diagnosis often have very different underlying biology. Two heart failure patients may both present with preserved ejection fraction (HFpEF) yet have completely different energetic phenotypes<sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup>; one driven by impaired mitochondrial oxidation and another by microvascular inflammation. Traditional biomarkers would not be able to distinguish these subtypes because they do not measure function.  </p>
+<p>This leads to a challenging clinical trial scenario: a therapy that is highly effective in a biologically defined subgroup may appear ineffective when tested across a heterogeneous patient population. A drug that is beneficial in 50% of patients but has no effect in the remainder may fail to meet efficacy thresholds and therefore be abandoned altogether<sup id="fnref:13"><a class="footnote-ref" href="#fn:13">13</a></sup>. If we could instead identify the patients whose disease is driven by mitochondrial dysfunction, this drug could be a targeted treatment with a much higher probability of success rather than a waste of billions of dollars.  </p>
+<p>Using these late-stage overt disease state biomarkers, such as mortality or hospitalisation, also means that trials often enrol patients who are too far along in disease progression or have too many comorbidities to respond to treatment. Measuring the efficacy of drugs based on their ability to reverse these symptoms at this point is too late. Most interventions at this stage can only slow further decline rather than restore the underlying system. This is the case with neurodegenerative diseases like Alzheimer’s especially, where treatments can modestly slow progression but cannot reverse the disease trajectory.  </p>
+<p>Functional mitochondrial phenotyping could stratify patients by biology, not symptoms. This would allow us to identify responders and non-responders early, and redefine disease subtypes around energetic dysfunction.  </p>
+<h3>Mitochondrial technologies are emerging but limited</h3>
+<p>We are now at an exciting point where the importance of mitochondria in disease is becoming increasingly clear<sup id="fnref:14"><a class="footnote-ref" href="#fn:14">14</a></sup>, while a new generation of mitochondrial technologies is beginning to close the measurement gap.  </p>
+<p>This represents a significant technological achievement. Developing new measurement platforms is inherently difficult because upfront costs are high and significant technical expertise and infrastructure is required. Therefore, innovation in this space is lagging behind the growing recognition of mitochondrial dysfunction as a therapeutic target.  </p>
+<p>Dynamic energetic measurements have advanced, though at high cost, in the areas of high-resolution respirometry<sup id="fnref:15"><a class="footnote-ref" href="#fn:15">15</a></sup>, spectroscopy<sup id="fnref:16"><a class="footnote-ref" href="#fn:16">16</a></sup> and metabolic flux assays<sup id="fnref:17"><a class="footnote-ref" href="#fn:17">17</a></sup>. These capture physiological changes as a living, adaptive process rather than a single snapshot, and helps pinpoint exactly when function declines. At the same time, human-relevant disease models are improving<sup id="fnref:18"><a class="footnote-ref" href="#fn:18">18</a></sup>, with the development of organoids and engineered microphysiological systems. The main limitation of these models is that they often retain an immature metabolic profile, and so their relevance to human disease is debated.  </p>
+<p>Imaging is also a rapidly developing field. Emerging functional mitochondrial imaging techniques<sup id="fnref:19"><a class="footnote-ref" href="#fn:19">19</a></sup> aim to map tissue‑specific energetics across organs, offering a systems‑level view of metabolic resilience and failure. Combined with integrated omics and AI‑driven analyses, these datasets are finally becoming interpretable at scale, and could provide an entirely new level of detail on mitochondrial function.   </p>
+<p>The mitochondrial therapeutic landscape is evolving even more rapidly. Frontier modalities, such as mitochondrial transplantation<sup id="fnref:20"><a class="footnote-ref" href="#fn:20">20</a></sup> and targeted manipulation of mitophagy<sup id="fnref:21"><a class="footnote-ref" href="#fn:21">21</a></sup> are moving from proof-of-concept towards early clinical evaluation, with a landmark FDA approval of the first mitochondrial-targeted drug elamipretide in 2025<sup id="fnref:22"><a class="footnote-ref" href="#fn:22">22</a></sup>. The importance of targeting mitochondria is also being recognised on a national scale, with the £55M ARIA mitochondrial genome-engineering initiative starting this year<sup id="fnref:23"><a class="footnote-ref" href="#fn:23">23</a></sup>. With these interventions, the need for a functional energetic readout is clear.</p>
+<h3>Concluding remarks</h3>
+<p>A solution to the challenges of drug discovery, particularly in the case of complex diseases, lies in the development of a dynamic systems-level readout of physiological function, instead of the existing static biomarkers we use now. I believe the answer to this exists in the ‘engine’ that fuels every cell in our body: our mitochondria. Primarily, this improves drug discovery by enabling earlier decision making and better patient stratification.  </p>
+<p>We are at a pivotal point, where progress is rapid but challenges are substantial. Mitochondria sit at the centre of systems biology, and capturing their biological function in a clinically scalable and sensitive way is difficult but important. Solving this challenge could provide a universal physiological readout that bridges molecular mechanisms and systems-level biology, ultimately transforming how we develop, evaluate and personalise therapies for complex disease.  </p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Wallace DC. A mitochondrial bioenergetic etiology of disease. <em>J Clin Invest.</em> 2013;123(4):1405–1412. doi:10.1172/JCI61398&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>IQVIA Institute for Human Data Science. <em>Global Trends in R\&amp;D 2026.</em>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Schuhmacher A, Gassmann O, Hinder M. Changing R\&amp;D models in research-based pharmaceutical companies. <em>J Transl Med.</em> 2016;14:105. doi:10.1186/s12967-016-0838-4&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2023 (GBD 2023) Causes of Death and Nonfatal Causes Mapped to ICD Codes. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME), 2025.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. <em>N Engl J Med.</em> 2015;373(22):2117–2128. doi:10.1056/NEJMoa1504720&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Banerjee D, Mani A. Obesity's systemic impact: exploring molecular and physiological links to diabetes, cardiovascular disease, and heart failure. <em>Front Endocrinol.</em> 2025;16:1681766. doi:10.3389/fendo.2025.1681766&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>O'Brien PJ. Cardiac troponin is the most effective translational safety biomarker for myocardial injury in cardiotoxicity. <em>Toxicology.</em> 2008;245(3):206–218. doi:10.1016/j.tox.2007.12.006&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>FDA. <em>Treatment for Heart Failure: Endpoints for Drug Development. Draft Guidance for Industry.</em> CDER/CBER, June 2019. <a href="https://www.fda.gov/media/128372/download">https://www.fda.gov/media/128372/download</a>&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:9">
+<p>Barter PJ, Caulfield M, Eriksson M, et al. Effects of torcetrapib in patients at high risk for coronary events (ILLUMINATE). <em>N Engl J Med.</em> 2007;357(21):2109–2122. doi:10.1056/NEJMoa0706628&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:10">
+<p>Picard M, Shirihai OS. Mitochondrial signal transduction. <em>Cell Metab.</em> 2022;34(11):1620–1653. doi:10.1016/j.cmet.2022.10.008&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+</li>
+<li id="fn:11">
+<p>Neubauer S, Horn M, Cramer M, et al. Myocardial phosphocreatine-to-ATP ratio is a predictor of mortality in patients with dilated cardiomyopathy. <em>Circulation.</em> 1997;96(7):2190–2196. doi:10.1161/01.CIR.96.7.2190&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">&#8617;</a></p>
+</li>
+<li id="fn:12">
+<p>Lewis GA, Schelbert EB, Williams SG, et al. Biological phenotypes of heart failure with preserved ejection fraction. <em>J Am Coll Cardiol.</em> 2017;70(17):2186–2200. doi:10.1016/j.jacc.2017.09.006&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">&#8617;</a></p>
+</li>
+<li id="fn:13">
+<p>FDA. <em>Enrichment Strategies for Clinical Trials to Support Demonstration of Effectiveness of Human Drugs and Biological Products. Guidance for Industry.</em> March 2019.&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">&#8617;</a></p>
+</li>
+<li id="fn:14">
+<p>Hoare Z. <em>Running on empty - The importance of energy in disease.</em> April 2026. <a href="https://substack.com/home/post/p-191379851">https://substack.com/home/post/p-191379851</a>&#160;<a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 14 in the text">&#8617;</a></p>
+</li>
+<li id="fn:15">
+<p>Timón-Gómez A, Doerrier C, Sumbalová Z, et al. Bioenergetic profiles and respiratory control in mitochondrial physiology: Precision analysis of oxidative phosphorylation. Exp Physiol. 2026 Jan;111(1):179-211. doi: 10.1113/EP092792&#160;<a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 15 in the text">&#8617;</a></p>
+</li>
+<li id="fn:16">
+<p>Jett S, Boneu C, Zarate C, et al. Systematic review of ³¹P-magnetic resonance spectroscopy studies of brain high energy phosphates and membrane phospholipids in aging and Alzheimer's disease. <em>Front Aging Neurosci.</em> 2023;15:1183228. doi:10.3389/fnagi.2023.1183228&#160;<a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 16 in the text">&#8617;</a></p>
+</li>
+<li id="fn:17">
+<p>Bednarski TK, Rahim M, Young JD. In vivo ²H/¹³C flux analysis in metabolism research. <em>Curr Opin Biotechnol.</em>2021;71:1–8. doi:10.1016/j.copbio.2021.04.005&#160;<a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 17 in the text">&#8617;</a></p>
+</li>
+<li id="fn:18">
+<p>Martina Lombardi, Andrea Ingenito, Antonietta Santoro, Jacopo Troisi; Organoid models through the lens of metabolomics: a systematic review of experimental applications and analytical approaches. Analyst 2026; 151 (9): 2489–2503.&#160;<a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 18 in the text">&#8617;</a></p>
+</li>
+<li id="fn:19">
+<p>Shiping Yuan, Yankun Zhao, Shujuan Liu et al. Optical imaging probes for mitochondrial metabolism: Mechanism, design and frontier applications. <em>Coordination Chemistry Reviews</em>. 2026; 553(217570). doi:10.1016/j.ccr.2026.217570.&#160;<a class="footnote-backref" href="#fnref:19" title="Jump back to footnote 19 in the text">&#8617;</a></p>
+</li>
+<li id="fn:20">
+<p>Minovia Therapeutics. <a href="https://minoviatx.com/">https://minoviatx.com</a> [accessed 11/06/26]&#160;<a class="footnote-backref" href="#fnref:20" title="Jump back to footnote 20 in the text">&#8617;</a></p>
+</li>
+<li id="fn:21">
+<p>Mission Therapeutics. <a href="https://missiontherapeutics.com/">https://missiontherapeutics.com</a> [accessed 11/06/2026]&#160;<a class="footnote-backref" href="#fnref:21" title="Jump back to footnote 21 in the text">&#8617;</a></p>
+</li>
+<li id="fn:22">
+<p>Mighty Therapeutics. <em>Mighty Therapeutics announces FDA accelerated approval of Forzinity (elamipretide HCl)…</em> Press release. <a href="https://mightytx.com/">https://mightytx.com/</a>. [accessed 11/06/2026]&#160;<a class="footnote-backref" href="#fnref:22" title="Jump back to footnote 22 in the text">&#8617;</a></p>
+</li>
+<li id="fn:23">
+<p>Advanced Research + Invention Agency (ARIA). <em>Precision Mitochondria</em> (Bioenergetic Engineering opportunity space). <a href="https://aria.org.uk/opportunity-spaces/bioenergetic-engineering/precision-mitochondria">https://aria.org.uk/opportunity-spaces/bioenergetic-engineering/precision-mitochondria</a> [accessed 11/06/2026]&#160;<a class="footnote-backref" href="#fnref:23" title="Jump back to footnote 23 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
+            <hr class="post-divider"><div class="post-nav"><a href='25.html' style='text-decoration: none;'>&larr; One Thing Led to Another</a><a href='27.html' style='text-decoration: none;'>Are We the Martians Under the Bed? &rarr;</a></div>
+        </article>
+    </main>
+    <footer class="site-footer">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="light-icon">○</span>
+            <span class="dark-icon">●</span>
+        </button>
+        <p>Express interest <a href="https://forms.gle/EwMPciRoT5rSHPNr9">here</a>.</p>
+<p>A project by <a href="https://callum.tilbury.co.za">Callum Rhys Tilbury</a>—trying to be a reformed <em>Ideas Guy</em>, biased towards action.</p>
+    </footer>
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark-mode');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                });
+            }
+
+            // Handle external links
+            document.querySelectorAll('a').forEach(a => {
+                if (a.hostname && a.hostname !== window.location.hostname) {
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
